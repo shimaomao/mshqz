@@ -1,0 +1,284 @@
+@import "../css/reset.css";
+@import "./px2rem";
+@import "./common";
+
+
+.footer-download{
+    margin-top: 0;
+}
+
+
+.huodong{
+    .banner{
+        height: px2rem(595);
+        width: 100%;
+        background: url(../images/huodong/banner.jpg) no-repeat;
+        background-size: 100%;
+        position: relative;
+        .gift{
+            width:100%;
+            height:px2rem(208);
+            background: url(../images/huodong/libao.png) no-repeat;
+            background-size: 100%;
+            position: absolute;
+            bottom:px2rem(-70);
+        }
+    }
+    .list{
+        min-height: px2rem(500);
+        background: #1b60db url(../images/huodong/der-topbg.jpg) no-repeat top center;
+        background-size: 100%;
+        margin-top: px2rem(-2);
+        padding-top: px2rem(30);
+        padding-bottom: px2rem(60);
+        .listbox{
+            position:relative;
+            min-height: px2rem(600);
+            margin: 0 auto; 
+            width:px2rem(718);
+            background: url(../images/huodong/boxmbg.jpg) repeat-y;
+            background-size: 100% auto;
+            padding-top:px2rem(25);
+
+            .top{
+                position: absolute;
+                background: url(../images/huodong/boxtopbg.png) no-repeat;
+                background-size: 100%;
+                width:100%;
+                height:px2rem(43);
+                top: px2rem(-40);
+                left:0;
+            }
+            .bottom{
+                position: absolute;
+                background: url(../images/huodong/boxbbg.png) no-repeat;
+                background-size: 100%;
+                width:100%;
+                height:px2rem(43);
+                bottom: px2rem(-10);
+                left:0;
+            }
+            .tit-1{
+                width:px2rem(496);
+                height:px2rem(63);
+                background: url(../images/huodong/titile.png) no-repeat;
+                background-size: 100%;
+                margin:0 auto;
+            }
+            .tit-2{
+                width:px2rem(496);
+                height:px2rem(63);
+                background: url(../images/huodong/titile-2.png) no-repeat;
+                background-size: 100%;
+                margin:0 auto;
+            }
+            .box-list{
+                width:px2rem(620);
+                margin:px2rem(30) auto;
+
+                ul{
+                    overflow: hidden;
+                    li{
+                        width:px2rem(305);
+                        height:px2rem(287);
+                        background: url(../images/huodong/gift-bg.png) no-repeat;
+                        background-size: 100%;
+                        float: left;
+                        text-align: center;
+
+                        h3{
+                            font-size: px2rem(28);
+                            color:#a86920;
+                            text-align: center;
+                            font-weight: bold;
+                            line-height: 1.1;
+                            margin-top: px2rem(55);
+                        }
+                        p{
+                            font-size: px2rem(22);
+                            color:#bf801e;
+                            text-align: center;
+                            line-height: 1.1;
+    
+                        }
+
+                        img{
+                            width:px2rem(189);
+                            margin-top: px2rem(20);
+
+                        }
+                        .lastpic{
+                            width:px2rem(279);
+                            margin-top: px2rem(25);
+                        }
+                    }
+                    li:nth-of-type(2n){
+                        float: right;
+                    }
+                    li:nth-of-type(6){
+                        background: none;
+                    }
+                }
+            }
+            .box-list2{
+                width:px2rem(660);
+                margin: 0 auto;
+
+                ul{
+                    overflow:hidden;
+                    padding:px2rem(30) 0;
+
+                    li{
+                        width:33.33333%;
+                        height:px2rem(201);
+                        float: left;
+                        background: url(../images/huodong/gift2-bg.png) no-repeat center top;
+                        background-size: px2rem(191) auto;
+                        position:relative;
+
+                        .num{
+                            font-size: px2rem(48);
+                            text-align: center;
+                            color:#cf4718;
+                            line-height: 1;
+                            margin-top: px2rem(10);
+
+
+                        }
+                        .g-tit{
+                            font-size: px2rem(28);
+                            color:#fed96e;
+                            text-align: center;
+                            text-shadow: 1px 1px #b0210b;
+                            
+                        }
+                        .g-tit1{
+                            margin-top: px2rem(12);
+                        }
+                        .g-tit2{
+                            margin-top: 0;
+                            line-height: 1.1;
+                        }
+
+                        img{
+                            width:px2rem(60);
+                            position: absolute;
+                            bottom:px2rem(18);
+                            left:50%;
+                            margin-left: px2rem(-30);
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    
+}
+
+.box{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index: 11;
+    top: 0;
+    display:none;
+
+
+
+    .bg{
+        position: absolute;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.8);
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .dre{
+        width:px2rem(680);
+        height:px2rem(635);
+        background: #d6b35a;
+        position: absolute;
+        border-radius: px2rem(20);
+        top: 50%;
+        left: 50%;
+        margin-top: px2rem(-635/2);
+        margin-left: px2rem(-680/2);
+        z-index: 2;
+        box-sizing: border-box;
+        padding: px2rem(80) px2rem(33) 0;
+        .close{
+            width:px2rem(65);
+            height:px2rem(65);
+            background: url(../images/huodong/close.png) no-repeat;
+            background-size: 100%;
+            position: absolute;
+            top: px2rem(-120);
+            right:0;
+        }
+        h3{
+            width:100%;
+            height:px2rem(98);
+            background: url(../images/huodong/alert-topbg.png) no-repeat;
+            background-size: 100%;
+            position: absolute;
+            top: px2rem(-45);
+            text-align: center;
+            font-size: px2rem(40);
+            line-height: px2rem(86);
+            color:#b48c27;
+            font-weight: bold;
+            left: 0;
+        }
+        .tit-h{
+            background: url(../images/huodong/guo.png) no-repeat center left;
+            background-size: px2rem(40) px2rem(35);
+            line-height: px2rem(40);
+            font-weight: bold;
+            color:#b96a03;
+            font-size: px2rem(28);
+            padding-left: px2rem(55);
+        }
+        p{
+            color:#9b641e;
+            font-size: px2rem(24);
+            line-height: px2rem(32);
+            text-indent: px2rem(55);
+
+        }
+        .table{
+            text-align: center;
+            padding-top: px2rem(20);
+            width:100%;
+            table{
+                width:100%;  
+                .tit>td{
+                    background: #D89741;
+                }
+                .tit1>.a{
+                    background: #D89741;
+                }
+            }
+        }
+        .erwei{
+            width:px2rem(150);
+            display:block;
+            margin:0 auto;
+        }
+    }
+    .in{
+        margin-bottom: px2rem(18);
+    }
+    .over{
+        height:100%;
+        overflow:auto;
+        -webkit-overflow-scrolling : touch;
+    }
+}
+// .box1{
+//     display:block;
+// }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>再遇见，相逢即是永远-《水浒Q传》手游开发组专题-《水浒Q传》手游官网</title>
+    <meta name="keywords" content="水浒Q传手游,水浒q传手游,水q手游,水浒游戏,水浒手游,水q礼包,水q开发组活动,耀世新生,好久不见"/>
+    <meta name="description" content="十年经典，耀世新生。《水浒Q传》手游7月28日iOS首发，8月4日全平台公测，参与开发组专题活动赢iPhone6s！再遇见，相逢即是永远！"/>
+    
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="hotcss" content="initial-dpr=1"/>
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="viewport" content="uc-fitscreen=yes"/>
+    <meta name="x5-orientation" content="portrait">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="force-rendering" contect="WebKit">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <script>
+        (function(window,document){(function(){var viewportEl=document.querySelector('meta[name="viewport"]'),hotcssEl=document.querySelector('meta[name="hotcss"]'),dpr=window.devicePixelRatio||1;if(hotcssEl){var hotcssCon=hotcssEl.getAttribute("content");if(hotcssCon){var initialDpr=hotcssCon.match(/initial\-dpr=([\d\.]+)/);if(initialDpr){dpr=parseFloat(initialDpr[1])}}}document.documentElement.setAttribute("data-dpr",dpr);var scale=1/dpr,content="width=device-width, initial-scale="+scale+", minimum-scale="+scale+", maximum-scale="+scale+", user-scalable=no";if(viewportEl){viewportEl.setAttribute("content",content)}else{viewportEl=document.createElement("meta");viewportEl.setAttribute("name","viewport");viewportEl.setAttribute("content",content);document.head.appendChild(viewportEl)}})();var hotcss={};hotcss.px2rem=function(px,designWidth){if(!designWidth){designWidth=parseInt(hotcss.designWidth,10)}return parseInt(px,10)*320/designWidth/20};hotcss.rem2px=function(rem,designWidth){if(!designWidth){designWidth=parseInt(hotcss.designWidth,10)}return rem*20*designWidth/320};hotcss.mresize=function(){var innerWidth=window.innerWidth;if(!innerWidth){return false}document.documentElement.style.fontSize=(innerWidth*20/320)+"px"};hotcss.mresize();window.addEventListener("resize",function(){clearTimeout(hotcss.tid);hotcss.tid=setTimeout(hotcss.mresize,33)},false);window.addEventListener("load",hotcss.mresize,false);setTimeout(function(){hotcss.mresize()},333);window.hotcss=hotcss})(window,document);
+    </script><!--ignore-->
+      
+    <link rel="stylesheet" href="./static/css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./static/scss/kaifa.scss"/>
+    <div id='wx_pic' style='margin:0 auto;display:none;'>
+        <img src='./static/images/kaifa/share2.jpg' />
+    </div> 
+</head>
+<body> 
+    <link rel="import" href="./static/html/out.html?__inline"/>
+    <link rel="import" href="./static/html/zhuan.html?__inline"/>
+    <link rel="import" href="./static/html/top.html?__inline"/>
+    <div class="videobox">
+        <div class="videoout"></div>
+
+    </div>
+    <div class="kaifaout">
+        <div class="bg"></div>
+        <div class="orderbox orderbox1" >
+            <span class="close"></span>
+            <h3>您距离iPhone 6s还有一步</h3>
+            <p class="word">留下您的联系方式，终极实物大奖将在官方网站公布。</p>
+            <div class="phonebox">
+                <input type="tel" class="kaifaOrderphone" maxlength="11" placeholder="输入手机号码" />
+                <a id="kaifaOrder">提交我的联系方式</a>
+            </div>
+        </div>
+        <div class="orderbox orderbox2">
+            <span class="close"></span>
+            <h3>恭喜您获得iPhone 6s抽奖资格</h3>
+            <p class="word">在微信打开本页面，点击右上角分享按钮，将页面<br />分享给小伙伴，可提高中奖概率。</p>
+            <div class="share">
+                <ul class="clearfix">
+                    <li>
+                        <img src="../static/images/kaifa/share.jpg" alt="" />
+                        <p>点击右上角按钮</p>
+                    </li>
+                    <li>
+                        <img src="../static/images/kaifa/friend.jpg" alt="" />
+                        <p>分享到朋友圈</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="innerbox">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="box box2">
+                        <div class="tit"></div>
+                        <div class="wenan1"></div>
+                        <div class="wenan2"></div>
+                        <div class="wenan3"></div>
+                        <div class="piao"></div>
+                        <div class="play"></div>
+                        <div class="next"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box box3">
+                        <div class="tit"></div>
+                        <div class="wenan1"></div>
+                        <div class="wenan2"></div>
+                        <div class="wenan3"></div>
+                        <div class="piao"></div>
+                        <div class="play"></div>
+                        <div class="next"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box box4">
+                        <div class="tit"></div>
+                        <div class="wenan1"></div>
+                        <div class="wenan2"></div>
+                        <div class="wenan3"></div>
+                        <div class="piao"></div>
+                        <div class="play"></div>
+                        <div class="next"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box box1">
+                        <div class="tit" id="tie"></div>
+                        <div class="wenan1"></div>
+                        <div class="wenan2"></div>
+                        <div class="wenan3"></div>
+                        <div class="piao"></div>
+                        <div class="play"></div>
+                        <div class="next"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box box5">
+                        <div class="tit5"></div>
+                        <div class="huobao"></div>
+                        <div class="ip6"></div>
+                        <div class="piao"></div>
+                        <div class="newPlayer"><p>我是新玩家<br />已有<em>33656</em>名参加</p></div>
+                        <div class="oldPlayer"><p>我是老玩家<br />已有<em>33656</em>名参加</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- <link rel="import" href="./static/html/footer.html?__inline"/> -->
+
+<script src="./static/plugins/swiper.min.js"></script>
+<script src="./static/plugins/mod.js"></script>
+<script type="text/javascript">
+    require(['./static/js/kaifa'],function(kaifaJS){
+        kaifaJS.init();
+    });
+    function goPAGE() {
+        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+            //window.location.href="你的手机版地址";
+        }
+        else {
+            window.location.href="http://shqz.15166.com/kaifa/";
+        }
+    }
+    goPAGE();
+
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?84c47a6ae9b02ad0a4f66141591a6870";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+</body>
+</html>

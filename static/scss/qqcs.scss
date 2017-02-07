@@ -1,0 +1,238 @@
+@import "common.scss";
+.trans{
+  opacity: 0;
+  -webkit-animation:trans  0.8s ease 0.9s both;
+  animation:trans  0.8s ease 0.9s both;
+}
+.trans0{
+  -webkit-animation:trans  0.8s ease 0.3s both;
+  animation:trans  0.8s ease 0.3s both;
+
+}
+.trans5{
+  -webkit-animation:trans  0.8s ease 0.2s both;
+  animation:trans  0.8s ease 0.2s both;
+}
+.trans1{
+  //transition: all 0.8s ease 0.5s;
+  -webkit-animation:trans  0.8s ease 0.5s both;
+  animation:trans  0.8s ease 0.5s both;
+}
+.trans2{
+  -webkit-animation:trans  0.8s ease 0.7s both;
+  animation:trans  0.8s ease 0.7s both;
+}
+.trans3{
+  -webkit-animation:trans  0.8s ease 0.9s both;
+  animation:trans  0.8s ease 0.9s both;
+}
+@keyframes trans
+{
+  0% {
+    opacity: 0;
+    -webkit-transform:translateY(110%);
+    transform:translateY(110%);
+
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform:translateY(px2rem(0));
+    transform:translateY(px2rem(0));
+
+  }
+}
+@-webkit-keyframes trans
+{
+  0% {
+    -webkit-transform:translateY(110%);
+    transform:translateY(110%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform:translateY(px2rem(0));
+    transform:translateY(px2rem(0));
+    opacity: 1;
+  }
+}
+@keyframes change
+{
+  0% {-webkit-transform:rotate(0deg);}
+  50% {-webkit-transform:rotate(180deg);}
+  100% {-webkit-transform:rotate(360deg);}
+}
+@-webkit-keyframes change
+{
+  0% {-webkit-transform:rotate(0deg);}
+  50% {-webkit-transform:rotate(180deg);}
+  100% {-webkit-transform:rotate(360deg);}
+}
+
+#index-w {
+  position: relative;
+  width: px2rem(750);
+
+  .bantou {
+    width: px2rem(750);
+    position: relative;
+    .videobtn{
+      width:px2rem(105);
+      height:px2rem(105);
+      position: absolute;
+      top:px2rem(466);
+      left:50%;
+      margin-left: px2rem(-105/2);
+      z-index: 2;
+      //background:url(../images/index/play2.png) no-repeat;
+      //background-size: 100%;
+      .quan{
+        width:px2rem(105);
+        height:px2rem(105);
+        position: absolute;
+        top:0;
+        left:0;
+        background:url(../images/index/play2-q1.png) no-repeat;
+        background-size: 100%;
+        -webkit-animation:change 2s linear infinite;
+        animation:change 2s linear infinite;
+      }
+      .sj{
+        background: url("../images/index/play2-q2.png") no-repeat;
+        width: px2rem(58);
+        height: px2rem(68);
+        background-size: 100%;
+        top:50%;
+        left:50%;
+        position: absolute;
+        margin-left: px2rem(-58/2);
+        margin-top: px2rem(-68/2);
+      }
+    }
+    .bantou-img {
+      display: block;
+      width: px2rem(750);
+      height: px2rem(1217);
+
+    }
+    span{
+      position: absolute;
+      left:50%;
+      margin-left: px2rem(-510/2);
+      top:px2rem(586);
+      width: px2rem(510);
+      height: px2rem(235);
+      .main-tit{
+        width: px2rem(510);
+        height: px2rem(235);
+        display: block;
+      }
+    }
+    .nav{
+      width: px2rem(716);
+      margin-left:px2rem(27);
+      position: relative;
+      .nav_ul{
+        position: absolute;
+        width: px2rem(716);
+        left:0;
+        bottom: px2rem(152);
+        a{
+         display: inline-block;
+          width: px2rem(193);
+          height: px2rem(214);
+          margin-left: px2rem(-20);
+          position: relative;
+          &.li2n{
+            //padding-top: px2rem(40);
+            img{
+              margin-top: px2rem(40);
+            }
+
+
+          }
+          img{
+            margin-top: 0;
+            position: absolute;
+            left:0;
+            top:0;
+            width: px2rem(193);
+
+            height: px2rem(214);
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .footer-download {
+    margin-top: 0;
+    .totop {
+      padding-bottom: px2rem(150);
+    }
+  }
+
+}
+
+/////////////////////video
+.videoout{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: #000;
+  opacity: 0.60;
+  filter: alpha(opacity=60);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  bottom:0;
+  //display:none;
+}
+.videobox{
+  display:none;
+  position:fixed;
+  top:0;
+  width:16.0rem;
+  height:100%;
+  z-index: 300;
+}
+.video1{
+  //opacity:0;
+  width:0.021333rem;
+  height:0.021333rem;
+  position: absolute;
+}
+.video2{
+  position: absolute;
+  top: 50%;
+  margin-top: -4.501333rem;//210
+  width:16.0rem;//750
+  height:auto;
+  z-index: 20;
+  text-align: center;
+  //display:none;
+}
+.va-myVideo{
+  width:96%;
+  height:auto;
+  position: absolute;
+  top: 50%;
+  margin-top: -4.501333rem;//210
+  height:auto;
+  left:50%;
+  margin-left:-48%;
+  z-index: 20;
+  text-align: center;
+}
+.videobox .va-myVideo2{
+  width:70%;
+  height:auto;
+  position: absolute;
+  top: 20%;
+  height:auto;
+  left:50%;
+  margin-left:-35%;
+  z-index: 20;
+  text-align: center;
+}

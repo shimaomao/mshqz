@@ -1,0 +1,181 @@
+@import "common.scss";
+
+.gameinfo{
+    width:16rem;
+    .banner{
+        height:7.36rem;//345
+        background:url(../images/ziliao/ziliaobanner.jpg) no-repeat;
+        background-size: 100%;
+        position:relative;
+
+        .search{
+            width: 10.24rem;//480
+            height: 1.834667rem;//86
+            position: absolute;
+            bottom:0;
+            left:0;
+
+            input{
+                width: 5.546667rem;//260
+                height:1.066667rem;//50
+                font-size: 0.512rem;//24
+                background:none;
+                margin-top: 0.384rem;//18
+                margin-left: 0.533333rem;//25
+                float: left;
+                color:#fff;
+                outline: none;
+                box-sizing: border-box;
+                padding-left: 0.469333rem;//22
+            }
+            #sss{
+                height:1.066667rem;//50
+                float: left;
+                width:3.093333rem;//145
+                margin-top: 0.384rem;//18
+                line-height:1.066667rem;//50
+                color:#fff;
+                margin-left: 0.106667rem;//5
+                text-align: center;
+                font-size: 0.512rem;//24
+            }
+        }
+    }
+    .kong{
+        height:1.92rem;//90
+        background:#e5f3f9;
+    }
+    .nav{
+        height: 1.216rem;//57
+        position:relative;
+        .navbox{
+            position: absolute;
+            top: -1.216rem;//57
+            .btn:nth-of-type(1){
+                margin-left: 0.597333rem;//28
+            }
+            .btn{
+                float: left;
+                width:2.453333rem;//115
+                height:2.453333rem;//115
+                background:url(../images/ziliao/noxuanzhong.png) no-repeat;
+                background-size: 100%;
+                box-sizing: border-box;
+                padding:0.64rem 0;//30
+                text-align: center;
+                color:#6a849d;
+                line-height: 0.597333rem;//28
+                margin-right: 0.597333rem;//28
+                font-size: 0.512rem;
+            }
+            .on{
+                background:url(../images/ziliao/xuanzhong1.png) no-repeat;
+                background-size: 100%;
+                color:#fff;
+            }
+        }
+    }
+    .ziliao{
+        width:14.933333rem;//700
+        margin:0 auto;
+        padding-bottom:1.066667rem;//50
+
+        .tit{
+            padding:1.92rem 0 0.469333rem;//90  22
+            border-bottom: 1px #afafaf solid;
+            h2{
+                border-left: 0.106667rem #434242 solid;//5
+                font-size: 0.768rem;//36
+                color:#434242;
+                line-height: 1;
+                padding-left: 0.213333rem;//10
+                font-weight: bold;
+            }
+        }
+        .click{
+            
+            a{
+                float: left;
+                font-size: 0.512rem;//24
+                min-width:3.882667rem;//182
+                border-right: 1px solid #afafaf;
+                height:0.554667rem;//26
+                line-height: 1;
+                text-align: center;
+                margin-bottom:0.853333rem;//40
+            }
+
+            a:nth-child(4n+1){
+                min-width:3.072rem;//144
+                text-align: left;
+                //color:red;
+                //text-decoration: underline;
+            }
+
+        }
+        .ziliaobox{
+            width: 14.933333rem;//700
+            margin:0.426667rem auto 0.426667rem;//20
+                li{
+                    box-sizing: border-box;
+                    padding-top: 0.533333rem;//25
+                    .left{
+                        float: left;
+                        width: 3.84rem;//180
+                        span{
+                            font-size: 0.554667rem;//26
+                            color:#fff;
+                            line-height:1.28rem;//60
+                            display: block;
+                            width:3.52rem;//165
+                            height:1.28rem;//60
+                            background:url(../images/ziliao/xitongjieshaobg.png) no-repeat;
+                            background-size: 100% 100%; 
+                            box-sizing: border-box;
+                            text-align: center;
+                        }
+                    }
+                    .right{
+                        float: left;
+                        width:11.093333rem;//520
+                        margin-top: 0.426667rem;//20
+
+                        a{
+                            float: left;
+                            box-sizing: border-box;
+                            padding:0 0.213333rem;//10
+                            min-width:4.010667rem;//188
+                            text-align: center;
+                            font-size: 0.512rem;//24
+                            height:0.533333rem;//25
+                            line-height: 1;
+                            border-right: 1px solid #afafaf;
+                            margin-bottom: 0.853333rem;//40
+                            
+                        }
+                    }
+                }
+                li:last-of-type{
+                    border-bottom: none;
+                }
+        }
+    }
+}
+
+.wupinbox{
+    padding-bottom:1.706667rem;//80
+}
+
+#text-search::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #fff; 
+} 
+#text-search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #fff; 
+} 
+#text-search::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #fff; 
+} 
+#text-search:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #fff; 
+} 
+.highlight{color:#fff;background:#ee8529;}

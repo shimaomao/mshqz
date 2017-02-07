@@ -1,0 +1,360 @@
+@import 'common';
+
+.top-header{
+   background: url(../images/yssa/topbg.jpg) no-repeat;
+   background-size: 100% 100%;
+
+   .logobox1{
+      margin-left:px2rem(5);
+   }
+   .back{
+      float: left;
+      height:100%;
+      color:#fff;
+      line-height: px2rem(105);
+      width:px2rem(95);
+      text-align: center;
+   }
+
+   .btnbox .download{
+      display: block;
+      width:px2rem(166);
+      height:px2rem(62);
+      background:url(../images/yssa/dlbtn.png) no-repeat;
+      background-size: 100%;
+      border:none;
+      padding:0;
+   }
+}
+main{
+   height: px2rem(1227);
+   background:url(../images/yssa/yssabg.jpg) no-repeat;
+   background-size: 100%;
+   position: relative;
+
+   .nz{
+      position: absolute;
+      width:px2rem(729);
+      bottom:0;
+      right: 0;
+   }
+   .box{
+      width:px2rem(204);
+      height:px2rem(325);
+      position: absolute;
+      background:url(../images/yssa/gua.png) no-repeat;
+      background-size: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      padding-top: px2rem(52);
+      span{
+         font-size: px2rem(38);
+         color:#fff972;
+         line-height: 1;
+      }
+      p{
+         font-size: px2rem(28);
+         color:#fff972;
+         line-height: 1;
+         margin-top: px2rem(30);
+      }
+
+   }
+   .box1{
+      top: px2rem(368);
+      left: px2rem(65);
+      z-index: 1;
+   }
+   .box2{
+      top: px2rem(290);
+      left: px2rem(273);
+   }
+   .box3{
+      top: px2rem(370);
+      right: px2rem(60);
+      z-index: 1;
+   }
+}
+.yssa01{
+   .banner{
+      height:px2rem(464);
+      background:url(../images/yssa/commtopbg.jpg) no-repeat;
+      background-size: 100%;
+   }
+   .main{
+      min-height: px2rem(800);
+      background:#feeed6;
+      position: relative;
+   }
+   .navbox{
+      width:px2rem(204);
+      height:px2rem(206);
+      background:url(../images/yssa/navbg.png) no-repeat;
+      background-size: 100%;
+      position: absolute;
+      box-sizing: border-box;
+      text-align: center;
+      padding-top: px2rem(35);
+
+      span{
+         font-size: px2rem(38);
+         color:#fff972;
+         line-height: 1;
+      }
+      p{
+         font-size: px2rem(28);
+         color:#fff972;
+         font-weight: bold;
+         line-height: 1;
+         margin-top: px2rem(30);
+      }
+
+   }
+   .box1{
+      top: px2rem(-15);
+      left:px2rem(23);
+   }
+   .box2{
+      top: px2rem(0);
+      left:px2rem(270);
+   }
+   .box3{
+      top: px2rem(-15);
+      right:px2rem(23);
+   }
+
+   .box1.on{
+      background:url(../images/yssa/on-nav.png) no-repeat;
+      background-size: 100%;
+      top: px2rem(20);
+      &::after{
+         content:"";
+         width:px2rem(6);
+         height:px2rem(40);
+         position: absolute;
+         background:#b2201a;
+         top: px2rem(-35);
+         left:50%;
+         margin-left: px2rem(-3);
+      }
+      &::before{
+         content:"";
+         width:px2rem(6);
+         height:px2rem(20);
+         position: absolute;
+         background:#b2201a;
+         bottom: px2rem(-15);
+         left:50%;
+         margin-left: px2rem(-3);
+      }
+   }
+   .box2.on{
+      background:url(../images/yssa/on-nav.png) no-repeat;
+      background-size: 100%;
+      top: px2rem(15);
+      &::after{
+         content:"";
+         width:px2rem(6);
+         height:px2rem(20);
+         position: absolute;
+         background:#b2201a;
+         top: px2rem(-15);
+         left:50%;
+         margin-left: px2rem(-3);
+      }
+      &::before{
+         content:"";
+         width:px2rem(6);
+         height:px2rem(20);
+         position: absolute;
+         background:#b2201a;
+         bottom: px2rem(-15);
+         left:50%;
+         margin-left: px2rem(-3);
+      }
+   }
+   .box3.on{
+      background:url(../images/yssa/on-nav.png) no-repeat;
+      background-size: 100%;
+      top: px2rem(20);
+      &::after{
+         content:"";
+         width:px2rem(6);
+         height:px2rem(40);
+         position: absolute;
+         background:#b2201a;
+         top: px2rem(-35);
+         left:50%;
+         margin-left: px2rem(-3);
+      }
+      &::before{
+         content:"";
+         width:px2rem(6);
+         height:px2rem(20);
+         position: absolute;
+         background:#b2201a;
+         bottom: px2rem(-15);
+         left:50%;
+         margin-left: px2rem(-3);
+      }
+   }
+}
+.nav-list{
+   padding-top: px2rem(235);
+   padding-left: px2rem(56);
+   span{
+      float: left;
+      width:px2rem(137);
+      height: px2rem(137);
+   }
+}
+.nav-list1{
+   span:nth-of-type(1){
+      background:url(../images/yssa/P-01-1.png) no-repeat;
+      background-size: 100%;
+   }
+   span:nth-of-type(2){
+      background:url(../images/yssa/P-01-2.png) no-repeat;
+      background-size: 100%;
+   }
+   span:nth-of-type(3){
+      background:url(../images/yssa/P-01-3.png) no-repeat;
+      background-size: 100%;
+   }
+   span:nth-of-type(4){
+      background:url(../images/yssa/P-01-4.png) no-repeat;
+      background-size: 100%;
+   }
+   span:nth-of-type(5){
+      background:url(../images/yssa/P-01-5.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(1){
+      background:url(../images/yssa/P-01-1-h.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(2){
+      background:url(../images/yssa/P-01-2-h.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(3){
+      background:url(../images/yssa/P-01-3-h.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(4){
+      background:url(../images/yssa/P-01-4-h.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(5){
+      background:url(../images/yssa/P-01-5-h.png) no-repeat;
+      background-size: 100%;
+   }
+}
+
+.nav-list2{
+   padding-left: px2rem(303);
+   span:nth-of-type(1){
+      background:url(../images/yssa/P-02-1.png) no-repeat;
+      background-size: 100%;
+   }
+   span:nth-of-type(2){
+      background:url(../images/yssa/P-02-2.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(1){
+      background:url(../images/yssa/P-02-1-h.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(2){
+      background:url(../images/yssa/P-02-2-h.png) no-repeat;
+      background-size: 100%;
+   }
+
+}
+.nav-list3{
+   padding-left: px2rem(420);
+   span:nth-of-type(1){
+      background:url(../images/yssa/P-03-1.png) no-repeat;
+      background-size: 100%;
+   }
+   span:nth-of-type(2){
+      background:url(../images/yssa/P-03-2.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(1){
+      background:url(../images/yssa/P-03-1-h.png) no-repeat;
+      background-size: 100%;
+   }
+   span.on:nth-of-type(2){
+      background:url(../images/yssa/P-03-2-h.png) no-repeat;
+      background-size: 100%;
+   }
+}
+.line{
+   width:px2rem(703);
+   height:1px;
+   background:url(../images/yssa/line.png) no-repeat;
+   background-size: 100%;
+   margin:px2rem(28) auto;
+}
+
+.content{
+   display:none;
+   padding-bottom: px2rem(50);
+   h2{
+      width:px2rem(264);
+      height:px2rem(96);
+      background:url(../images/yssa/tit.png) no-repeat;
+      background-size: 100%;
+      text-align: center;
+      line-height: 2.8;
+      font-size: px2rem(34);
+      font-weight: bold;
+      margin:px2rem(10) auto;
+      color:#fff6b9;
+   }
+   h3{
+      font-size: px2rem(30);
+      margin-top: px2rem(40);
+      color:#db1000;
+      font-weight: bold;
+      text-indent: px2rem(40);
+      line-height: px2rem(50);
+      background:url(../images/yssa/tit-d.png) px2rem(15) center no-repeat;
+      background-size: px2rem(22) px2rem(22);
+   }
+   img{
+      width: 90%;
+      display:block;
+      margin:px2rem(25) auto 0;
+      // -webkit-border-image: url(../images/yssa/border.png) 18/px2rem(8);
+      // border-width: px2rem(5);
+      border-width:px2rem(16);
+      border-image:url(../images/yssa/border.png) 20; 
+      box-sizing: border-box;
+
+   }
+   p{
+      width:px2rem(660);
+      margin:px2rem(15) auto 0;
+      font-size: px2rem(24);
+      line-height: 1.5;
+      color:#393838;
+      em{
+         color:#db1000;
+         font-weight: bold;
+      }
+   }
+}
+.content.on{
+   display:block;
+}
+.footer-download{
+   margin-top: 0;
+}
+.text-in{
+   text-indent: 2em;
+}
+.borderM-n{
+    -webkit-border-image: none !important;
+}

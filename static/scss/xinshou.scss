@@ -1,0 +1,625 @@
+@import "common.scss";
+
+
+.banner1{
+    width: 16rem;
+    height: 15.018667rem;//704
+    background: url(../images/xinshou/banner1.jpg) no-repeat;
+    background-size: 100% auto;
+
+}
+.main{
+    width: 16rem;
+    min-height: 12.8rem;//600
+    background: #e5f3f9 url(../images/xinshou/banner2.jpg) no-repeat top;
+    background-size:100%; 
+    position:relative;
+    margin-top: -0.042667rem;//2
+    padding-bottom: 1.066667rem;//50
+    .bg {
+        transform:rotate(20deg);
+        -webkit-transform:rotate(-3deg);
+        box-shadow: 0 0 0.426667rem rgba(0,0,0,0.3);
+        position: absolute;
+        width: 14rem;
+        height: 10rem;
+        left: 0.58rem;
+        top: 0;
+        background:#fff;
+    }
+
+    .bg2{
+        transform:rotate(20deg);
+        -webkit-transform:rotate(-3deg);
+        box-shadow: 0 0 0.426667rem rgba(0,0,0,0.3);
+        position: absolute;
+        width: 14rem;
+        height: 10rem;
+        left: 1.3rem;
+        bottom: 1rem;
+        background:#fff;
+
+    }
+}
+.fl{
+    float: left;
+}
+
+.main-box{
+    width: 14.293333rem;//700
+    margin:0 auto;
+    background:url(../images/xinshou/zhibg.jpg) repeat-y;
+    min-height: 40rem;
+    box-shadow: 0 0 0.426667rem rgba(0,0,0,0.3);//40
+    position:relative;
+    padding-top: 1.493333rem;//70
+    padding-bottom: 1.066667rem;//50
+
+    .tit{
+        padding-left: 1.493333rem;//70
+        height:1.6rem;//75
+        line-height: 1.6rem;//75
+        font-size: 0.64rem;//30
+        color:#ff8201;
+        position:relative;
+
+        span{
+            position: absolute;
+            width:1.386667rem;//65
+            height:1.6rem;//75
+            background:url(../images/xinshou/numbg.png) no-repeat;
+            background-size: 100%;
+            font-size: 0.768rem;//36
+            color:#fff;
+            line-height: 1.6rem;//75
+            text-align: center;
+            left:-0.32rem;//15
+            font-weight: bold;
+        }
+    }
+
+    .rumen{
+        width:13.013333rem;//610
+        background: #e5f3f9;
+        margin:0.746667rem auto 1.066667rem;//35   50
+        padding-bottom: 0.384rem;//18
+        position:relative;
+        .tips{
+            width: 6.592rem;//309
+            height: 1.216rem;//57
+            background: url(../images/xinshou/tips1.png) no-repeat;
+            background-size: 100% auto;
+            position: absolute;
+            top: -1.024rem;//48
+            left:4.266667rem;//200
+        }
+
+        .left{
+            float: left;
+            margin-left: 1.92rem;//90
+            margin-top: 0.384rem;//18
+            .azdownload{
+                display:block;
+                width:4.906667rem;//230
+                height:1.706667rem;//80
+                background-color: #de3e2e;
+                color:#fff;
+                border:1px solid #fff;
+                border-radius: 0.106667rem;//5
+                box-sizing: border-box;
+
+                .icon{
+                    float: left;
+                    width:0.938667rem;//44
+                    height:1.066667rem;//50
+                    background:url(../images/xinshou/Android.png) no-repeat;
+                    background-size: 100% auto;
+                    margin: 0.298667rem 0.213333rem 0 0.405333rem;//14  10  19 
+                }
+                .wenzi{
+                    margin-top: 0.106667rem;//5
+                    float: left;
+
+                }
+            }
+            .yuye{
+                width:4.906667rem;//230
+                height:1.706667rem;//80
+                background: url(../images/xinshou/orderbg.png) no-repeat;
+                background-size: 100% auto;
+                font-size: 0.512rem;
+                color:#fff;
+                //text-align: center;
+                line-height: 1.706667rem;//80
+                margin-top: px2rem(35);
+                text-align: center;
+
+                .icon{
+                    float: left;
+                    width:0.853333rem;//40
+                    height:1.066667rem;//50
+                    background:url(../images/fab/apple.png) no-repeat;
+                    background-size: 100% auto;
+                    margin: 0.298667rem 0.213333rem 0 0.465333rem;//14  10  19 
+                }
+            }
+        }
+        .right{
+            width: px2rem(200);
+            height:px2rem(125);
+            //background-color: #ffef6b;
+            box-sizing: border-box;
+           // border:1px solid #fff;
+            float: left;
+            margin-left: 0.64rem;//30
+            margin-top: px2rem(30);
+            //border-radius: 0.106667rem;//5
+            text-align: center;
+            position:relative;
+            img{
+                margin-top: px2rem(5);
+                width:px2rem(80);
+                height:auto;
+            }
+            span{
+                display:block;
+                background:#ee8629;
+                border:1px solid #fff;
+                padding:0.064rem 0.173333rem;//3  8
+                color:#fff;
+                border-radius: 1.066667rem;//50
+                position: absolute;
+                left:px2rem(17);
+                bottom: 0.426667rem;//20
+            }
+        }
+    }
+
+    .rolebox{
+        width:13.013333rem;//610
+        margin:0.213333rem auto 1.28rem;//10  60
+        position:relative;
+        .tip{
+            position: absolute;
+            width:3.968rem;//186
+            height:1.962667rem;//92
+            background:url(../images/xinshou/tips2.png) no-repeat;
+            background-size: 100%;
+            top: -2.133333rem;//100
+            right: 0.426667rem;//20
+        }
+
+        .navtab{
+            ul>li{
+                float: left;
+                width:16.666%;
+                text-align: center;
+                height: 1.066667rem;//50
+                line-height: 1.066667rem;//50
+                color:#8a9da5;
+                font-size: 0.512rem;//24
+                position:relative;
+                box-sizing: border-box;
+
+                span{
+                    position: absolute;
+                    width:2.773333rem;//130
+                    left:0;
+                    
+                    top: 0;
+
+                    i{
+                        width:0.793333rem;//37
+                        height:1.066667rem;//50
+                        background:url(../images/xinshou/tabbg.png) no-repeat left;
+                        background-size: auto 100%;
+                        float: left;
+                    }
+                    em{
+                        background:url(../images/xinshou/tabbg.png) no-repeat right;
+                        background-size: auto 100%;
+                        padding-right:0.853333rem; //40
+                        height:1.066667rem;//50
+                        float: left;
+                        color:#fff;
+                        font-weight: bold;
+                    }
+                }
+                &.last{
+                   span{
+                       left: - px2rem(23);
+                   }
+
+                }
+            }
+            
+        }
+        
+        .roleinfo{
+            padding:0.426667rem;//20
+            box-sizing: border-box;
+            background: #e5f3f9;
+            position:relative;
+            display:none;
+
+
+
+            .jieshaobox{
+                width:6.4rem;//30
+            }
+            .picbox{
+                width:5.354667rem;//251
+                height:8.384rem;//393
+                position: absolute;
+                right:0;
+                top: 0;
+
+                .sex{
+                    width:1.92rem;//90
+                    height:0.746667rem;//35
+                    position: absolute;
+                    top: 0.64rem;//30
+                    z-index: 20;
+                    
+                    span{
+                        width:0.746667rem;//35
+                        height:0.746667rem;//35
+                    }
+                    .nan{
+                        float: left;
+                        background:url(../images/index/nan.png) no-repeat;
+                        background-size: 100%;
+                    }
+                    
+                    .nv{
+                        float: right;
+                        background:url(../images/index/nv.png) no-repeat;
+                        background-size: 100%;
+                    }
+                    .nvon{
+                        background:url(../images/index/nanhover.png) no-repeat;
+                        background-size: 100%;
+                        position: absolute;
+                        top: 0;
+                        left:0;
+                        display:none;
+                    }
+                    .nanon{
+                        background:url(../images/index/nvhover.png) no-repeat;
+                        background-size: 100%;
+                        position: absolute;
+                        top: 0;
+                        right:0;
+                    }
+                }
+
+                img{
+                    position: absolute;
+                    left:0;
+                    bottom:0;
+                    width:6.656rem;//312
+                    height:7.936rem;//372
+                    -webkit-touch-callout: none; 
+                }
+            }
+            .jieshao{
+                font-size: 0.554667rem;//26
+                color:#6a849d;
+                line-height: 0.96rem;//45
+                border-bottom: 1px solid #6a849d;
+            }
+            .jieshaoinfo{
+                font-size: 0.512rem;//24
+                color:#6d7071;
+                line-height: 0.853333rem;//40
+            }
+            .jineng{
+                font-size: 0.554667rem;//26
+                color:#6a849d;
+                line-height: 0.96rem;//45
+                border-bottom: 1px solid #6a849d;
+                width:6.4rem;//300
+                margin-top: 0.853333rem;
+            }
+            .tuijian{
+                font-size: 0.554667rem;//26
+                color:#6a849d;
+                line-height: 0.96rem;//45
+                border-bottom: 1px solid #6a849d;
+                margin-top: 0.853333rem;//40
+            }
+            .jinengtuijian{
+                p{
+                    line-height: 0.746667rem;//35
+                    margin-top: 0.32rem;//15
+                    i{
+                        color:#6a849d;
+                    }
+                    em{
+                        color:#6d7071;
+                    }
+                }
+            }
+            .jinengtab{
+                .skilltit>li{
+                    float: left;
+                    padding:0 0.426667rem;//20
+                    line-height: 0.853333rem;//40
+                    margin-top: 0.256rem;//12
+                }
+                .on{
+                    background: #6a849d ;
+                    color:#fff;
+                }
+                .skillicon{
+                    height:1.706667rem;//80
+                    margin-top: 0.426667rem;//20
+                    display:none;
+                    img{
+                        width:1.706667rem;//80
+                        height:auto;
+                        float: left;
+                        margin-right: 0.64rem;//30
+                    }
+                }
+                .skillicon1{
+                    display:block;
+                }
+            }
+        }
+        .yisheng{
+            display:block;
+
+            .picbox{
+                img.nan{
+                    width:5.333333rem;//250
+                    height:7.466667rem;//350
+                }
+                img.nv{
+                    width:6.293333rem;//295
+                    height:7.296rem;//342
+                    display:none;
+                }
+            }
+        }
+        .jianke{
+            //display:block;
+
+            .picbox{
+                img.nan{
+                    width:5.546667rem;//260
+                    height:7.296rem;//342
+
+                }
+                img.nv{
+                    width:5.461333rem;//256
+                    height:7.68rem;//360
+                    display:none;
+                }
+            }
+        }
+        .shushi{
+            //display:block;
+
+            .picbox{
+                img.nan{
+                    width:6.826667rem;//320
+                    height:6.506667rem;//305
+                }
+                img.nv{
+                    width:6.421333rem;//300
+                    height:7.061333rem;//331
+                    display:none;
+                }
+            }
+        }
+        .daoshi{
+            //display:block;
+
+            .picbox{
+                img.nan{
+                    width:5.568rem;//261
+                    height:7.338667rem;//344
+                }
+                img.nv{
+                    width:5.866667rem;//275
+                    height:7.274667rem;//341
+                    display:none;
+                }
+            }
+        }
+        .sheshou{
+           // display:block;
+
+            .picbox{
+                img.nan{
+                    width:6.656rem;//312
+                    height:7.936rem;//372
+                }
+                img.nv{
+                    width:5.994667rem;//281
+                    height:7.424rem;//348
+                    display:none;
+                }
+            }
+        }
+        .wushi{
+            //display:block;
+
+            .picbox{
+                img.nan{
+                    width:px2rem(297);
+                    height:px2rem(326);
+
+                }
+                img.nv{
+                    width:px2rem(292);
+                    height:px2rem(309);
+                    display:none;
+                }
+            }
+        }
+    }
+
+    .levelbox{
+        width:13.013333rem;//610
+        margin:0.213333rem auto 1.066667rem;//10  50
+        position:relative;
+        .tip{
+            position: absolute;
+            width:7.189333rem;//337
+            height:2.048rem;//96
+            background:url(../images/xinshou/tips3.png) no-repeat;
+            background-size: 100%;
+            top: -2.133333rem;//100
+            right:0.64rem;//30
+        }
+
+        .levelNav li{
+            text-align: center;
+            height: 1.066667rem;//50
+            line-height: 1.066667rem;//50
+            width:33.333333%;
+            float: left;
+        }
+        .on{
+            background:url(../images/xinshou/tabbg2.png) no-repeat;
+            background-size: 100% 100%;
+            color:#fff;
+        }
+        
+        .levelNav .left{
+            
+            padding-left: 0;           
+        }
+       
+        .outside{
+             background: #e5f3f9;
+        }
+        .level{
+            width:12.16rem;//570
+            margin:0 auto;
+            padding-bottom: 1.066667rem;//50
+            display:none;
+
+            h4.leveltit{
+                font-size: 0.554667rem;//26
+                color:#6a849d;
+                line-height: 1.066667rem;//50
+                border-bottom: 1px solid #90a7bd;
+                padding-top: 0.533333rem;//25
+            }
+            p{
+                text-indent: 2em;
+                line-height: 0.853333rem;//40
+                margin-top: 0.426667rem;//20
+                color:#6d7071;
+            }
+
+            img{
+                width:100%;
+                height:auto;
+                padding: 0.426667rem 0;//20
+            }
+
+        }
+
+        .level-0{
+            display:block;
+        }
+
+    }
+    .zhuanqianbox{
+        width:13.013333rem;//610
+        margin:0.746667rem auto 1.066667rem;//35  50
+        position:relative;
+
+        .tip{
+            position: absolute;
+            width:4.416rem;//207
+            height:1.642667rem;//77
+            background:url(../images/xinshou/tips4.png) no-repeat;
+            background-size: 100%;
+            top: -2.133333rem;//100
+            right:1.92rem;//90
+        }
+
+        ul>li{
+            float: left;
+            position:relative;
+            margin-bottom:0.426667rem;//20
+
+            a{
+                position: absolute;
+                width:100%;
+                height:100%;
+                line-height: 3.626667rem;//170
+                font-size: 0.512rem;//24
+                text-align: center;
+                top: 0;
+                color:#fff;
+            }
+        }
+
+        .right{
+            float: right;
+        }
+
+        img{
+            width:6.186667rem;//290
+            height:3.626667rem;//170
+        }
+    }
+
+    .gaoshou{
+        width:13.013333rem;//610
+        box-sizing: border-box;
+        padding:0 0.426667rem 0.426667rem 0.426667rem;//20
+        background: #e5f3f9 ;
+        margin:0.853333rem auto 0;//40
+        position:relative;
+
+        .tip{
+            position: absolute;
+            width:5.44rem;//255
+            height:1.792rem;//84
+            background:url(../images/xinshou/tips5.png) no-repeat;
+            background-size: 100%;
+            top: -2.133333rem;//100
+            right:0.64rem;//30
+        }
+
+        h4.gaoshoutit{
+                font-size: 0.554667rem;//26
+                color:#6a849d;
+                line-height: 1.066667rem;//50
+                border-bottom: 1px solid #90a7bd;
+                padding-top: 0.533333rem;//25
+            }
+
+           .link{
+            a{
+                float: left;
+                padding-left: 0.746667rem;//35
+                line-height: 0.64rem;//30
+                width:30%;
+                box-sizing: border-box;
+                border-right: 1px solid #afafaf;
+                background:url(../images/index/dian2.png) no-repeat left center;
+                background-size: 0.533333rem 0.533333rem;//25
+                margin: 0.426667rem 0 0.426667rem 5%;
+
+
+            }
+            a:nth-of-type(1){
+                margin-left: 0;
+            }
+           } 
+    }
+
+}
+
+
+.footer-download{
+    margin-top: 0;
+}

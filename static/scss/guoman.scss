@@ -1,0 +1,501 @@
+@import "common.scss";
+
+@keyframes liang {
+    0%{opacity: 0;}
+    20%{opacity: 0.8;}
+    100% {opacity: 1;}
+}
+@keyframes liang2 {
+    0%{opacity: 0;}
+    30%{opacity: 0.7;}
+    100% {opacity: 1;}
+}
+
+@keyframes bigger {
+    0%{opacity: 0;transform: scale(4);}
+    100% {opacity: 1;transform: scale(1);}
+}
+@keyframes bigger2 {
+    0%{opacity: 0;transform: scale(4);}
+    70%{opacity: 1;transform: scale(0.8);}
+    100% {opacity: 1;transform: scale(1);}
+}
+
+@keyframes smalls {
+    0%{opacity: 0;transform: scale(0.5);}
+    100% {opacity: 1;transform: scale(1);}
+}
+@keyframes right {
+    0% {opacity:0;transform: translate3d(px2rem(-150), 0 , 0);}
+    100%{opacity:1;transform: translate3d(0, 0, 0) ;}
+}
+@keyframes bigright {
+    0% {opacity:1;transform: translate3d(px2rem(750), 0 , 0);}
+    100%{opacity:1;transform: translate3d(0, 0, 0) ;}
+}
+@keyframes left {
+    0% {opacity:0;transform: translate3d(px2rem(100), 0 , 0);}
+    100%{opacity:1;transform: translate3d(0, 0, 0) ;}
+}
+
+
+@-webkit-keyframes liang {
+    0%{opacity: 0;}
+    20%{opacity: 0.8;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes liang2 {
+    0%{opacity: 0;}
+    30%{opacity: 0.7;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes bigger {
+    0%{opacity: 0;-webkit-transform: scale(4);}
+    100% {opacity: 1;-webkit-transform: scale(1);}
+}
+@-webkit-keyframes bigger2 {
+    0%{opacity: 0;-webkit-transform: scale(4);}
+    70%{opacity: 1;-webkit-transform: scale(0.8);}
+    100% {opacity: 1;-webkit-transform: scale(1);}
+}
+
+
+@-webkit-keyframes smalls {
+    0%{opacity: 0;-webkit-transform: scale(0.5);}
+    100% {opacity: 1;-webkit-transform: scale(1);}
+}
+@-webkit-keyframes right {
+    0% {opacity:0;-webkit-transform: translate3d(px2rem(-150), 0 , 0);}
+    100%{opacity:1;-webkit-transform: translate3d(0, 0, 0) ;}
+}
+@-webkit-keyframes bigright {
+    0% {opacity:1;-webkit-transform: translate3d(px2rem(750), 0 , 0);}
+    100%{opacity:1;-webkit-transform: translate3d(0, 0, 0) ;}
+}
+@-webkit-keyframes left {
+    0% {opacity:0;-webkit-transform: translate3d(px2rem(100), 0 , 0);}
+    100%{opacity:1;-webkit-transform: translate3d(0, 0, 0) ;}
+}
+
+
+
+
+.guomanout{
+    position:fixed;
+    top: 0;
+    width:100%;
+    height:100%;
+    z-index: 10;
+    display:none;
+    .bg{
+        position:absolute;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.8);
+    }
+
+    .all{
+        width:px2rem(700);
+        height:px2rem(740);
+        position: absolute;
+        left:50%;
+        margin-left: px2rem(-350);       
+        top: 15%;
+        .close{
+            position: absolute;
+            width:px2rem(55);
+            height:px2rem(55);
+            background: url(../images/guoman/close.png);
+            background-size: 100%;
+            top: px2rem(-80);
+            right:0;
+        }
+    }
+    .picbox{
+        width:px2rem(700);
+        height:px2rem(650);
+        overflow:auto;
+        -webkit-overflow-scrolling : touch; 
+        div{
+            display:none;
+        }
+        img{
+            width:100%;
+        }
+    }
+    .btn{
+        width:100%;
+        position: absolute;
+        bottom:0;
+        span{
+            width:px2rem(200);
+            float: left;
+            height:px2rem(50);
+            border:1px #fff solid;
+            line-height: px2rem(50);
+            text-align: center;
+            font-size: px2rem(24);
+        }
+        span:nth-of-type(1){
+            margin-left: px2rem(128);
+        }
+        span:nth-of-type(2){
+            float: right;
+            margin-right: px2rem(128);
+        }
+        .on{
+            background: #e02222;
+            border:1px #e02222 solid;
+        }
+        color:#fff;
+        
+    }
+
+}
+
+.top-header{
+    position:relative;
+    z-index: 2;
+}
+.innerbox{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top:0 ;
+    overflow: hidden;
+}
+
+
+.box{
+    width:px2rem(750);
+    height:100%;
+    position: absolute;
+    top:0;
+    overflow:hidden;
+    //padding-top: px2rem(115);
+    box-sizing: border-box;
+    z-index: 1;
+    .man{
+        opacity:0;
+        position: absolute;
+    }
+    
+    .wenan{
+        position: absolute;
+        top: px2rem(285);
+        z-index: 100;
+        width:px2rem(360);
+        left:px2rem(25);
+
+        h3{
+            font-size: px2rem(100);
+            color:#fff;
+            opacity:0;
+            border-bottom:1px solid #fff;
+
+            img{
+                width:px2rem(219);
+                margin-bottom:px2rem(15);
+            }
+            
+        }
+        p{
+            color:#fff;
+           
+        }
+        .der{
+            font-size: px2rem(30);
+            line-height: px2rem(54);
+            opacity:0;
+        }
+        .zi{
+            line-height: px2rem(42);
+            font-size: px2rem(24);
+            margin-top: px2rem(20);
+            opacity:0;
+        }
+        .btn{
+            margin-top: px2rem(25);
+            overflow:hidden;
+            opacity:0;
+            span{
+                width:px2rem(175);
+                float: left;
+                height:px2rem(45);
+                border:1px #fff solid;
+                line-height: px2rem(45);
+                text-align: center;
+                font-size: px2rem(24);
+            }
+            span:nth-of-type(2){
+                float: right;
+            }
+            color:#fff;
+            
+        }
+    }
+
+}
+.start{
+    .wenan{
+        h3{
+            -webkit-animation: right 1s ease forwards;
+                    animation: right 1s ease forwards;
+        }
+        .der{
+            -webkit-animation: left 1s ease forwards;
+                    animation: left 1s ease forwards;
+        }
+        .zi{
+            -webkit-animation: left .5s .5s ease forwards;
+                    animation: left .5s .5s ease forwards;
+        }
+        .btn{
+            -webkit-animation: left .5s .5s ease forwards;
+                    animation: left .5s .5s ease forwards;
+        }   
+    }     
+}
+
+.box1{ 
+    background: url(../images/guoman/indexbg.jpg) no-repeat center top;
+    background-size: 100%;
+    div{
+        position: absolute;
+        display:none;
+    }
+    
+    .ren{
+        width:px2rem(750);
+        background: url(../images/guoman/indexman.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1334);
+        position: absolute;
+        top:px2rem(80);
+        opacity:0;
+        // left:50%;
+        // margin-left: px2rem(-350);
+    }
+    .tit{
+        width:px2rem(572);
+        position: absolute;
+        background: url(../images/guoman/wenzi.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(383);
+        left:50%;
+        margin-left: px2rem(-572/2);
+        bottom:px2rem(230);
+        opacity:0;
+    }
+    .guang1{
+        width:px2rem(601);
+        background: url(../images/guoman/guang1.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(498);
+        bottom:px2rem(230);
+        opacity:0;
+    }
+    .guang2{
+        width:px2rem(726);
+        background: url(../images/guoman/guang2.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(641);
+        bottom:px2rem(-25);
+        left:px2rem(10);
+        opacity:0;
+    }
+    .jin{
+        width:px2rem(750);
+        background: url(../images/guoman/ci.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(614);
+        top:px2rem(70);
+        opacity:0;
+    }
+    .indexb{
+        width:px2rem(750);
+        background: url(../images/guoman/indexb.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(222);
+        bottom:0;
+    }
+    .riqi{
+        width:px2rem(480);
+        background: url(../images/guoman/ios.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(29);
+        bottom:px2rem(185);
+        left:50%;
+        margin-left: px2rem(-480/2);
+        opacity:0;
+    }
+
+}
+.start{
+    
+    .guang1{
+        -webkit-animation: liang 4s 1.5s infinite alternate;
+                animation: liang 4s 1.5s infinite alternate;
+    }
+    .guang2{
+        -webkit-animation: liang2 3s 1.5s infinite alternate;
+                animation: liang2 3s 1.5s infinite alternate;
+    }
+    .jin{
+        -webkit-animation: bigger 1s ease forwards;
+                animation: bigger 1s ease forwards;
+    }
+    .ren{
+        -webkit-animation: smalls 1s ease forwards;
+                animation: smalls 1s ease forwards;
+    }
+    .tit{
+        -webkit-animation: bigger .8s 1s ease forwards;
+                animation: bigger .8s 1s ease forwards;
+    }
+    .riqi{
+        -webkit-animation: bigger .5s 1.8s ease forwards;
+                animation: bigger .5s 1.8s ease forwards;
+    }
+    .man{
+        -webkit-animation: bigright .8s ease forwards;
+                animation: bigright .8s ease forwards;
+    }
+}
+
+.box2{
+    background: url(../images/guoman/bg1.jpg) no-repeat center px2rem(100);
+    background-size: 100%;
+    .man{
+        width:px2rem(750);
+        background: url(../images/guoman/jianke.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1231);
+        top: px2rem(145);
+        right:0;
+    }
+
+}
+.box3{
+    background: url(../images/guoman/bg2.jpg) no-repeat center px2rem(100);
+    background-size: 100%;
+    .man{
+        width:px2rem(744);
+        background: url(../images/guoman/shushi.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1175);
+        top: px2rem(145);
+        right:0;
+    }
+    
+}
+.box4{
+    background: url(../images/guoman/bg3.jpg) no-repeat center px2rem(100);
+    background-size: 100%;
+    .man{
+        width:px2rem(393);
+        background: url(../images/guoman/daoshi.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1223);
+        top: px2rem(100);
+        right:0;
+    }
+    
+}
+.box5{
+    background: url(../images/guoman/bg4.jpg) no-repeat center px2rem(100);
+    background-size: 100%;
+    .man{
+        width:px2rem(518);
+        background: url(../images/guoman/wushi.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1115);
+        top: px2rem(150);
+        right:0;
+    }
+    
+}
+.box6{
+    background: url(../images/guoman/bg5.jpg) no-repeat center px2rem(100);
+    background-size: 100%;
+    .man{
+        width:px2rem(608);
+        background: url(../images/guoman/sheshou.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1175);
+        top: px2rem(155);
+        right:0;
+    }
+    
+}
+.box7{
+    background: url(../images/guoman/bg6.jpg) no-repeat center px2rem(100);
+    background-size: 100%;
+    .man{
+        width:px2rem(493);
+        background: url(../images/guoman/yisheng.png) no-repeat;
+        background-size: 100%;
+        height:px2rem(1149);
+        top: px2rem(200);
+        right:0;
+    }
+    
+}
+
+.swiper-container{
+    position: absolute;
+    height:100%;
+}
+.swiper-pagination{
+    position: absolute;
+    bottom:px2rem(15);
+    height:px2rem(60);
+    text-align: center;
+    width:100%;
+
+    .swiper-pagination-bullet{
+        height:px2rem(60);
+        width:px2rem(60);
+        display:inline-block;
+        background: url(../images/guoman/dian2.png) center center;
+        background-size: 100%;
+        opacity: 1;
+        margin:0 px2rem(12);
+    }
+    .swiper-pagination-bullet-active{
+        background: url(../images/guoman/dian.png) center center;
+        background-size: 100%; 
+    }
+}
+.line{
+    position: absolute;
+    width:px2rem(510);
+    border-bottom: 1px dashed #9da1a5;
+    left:50%;
+    margin-left: px2rem(-510/2);
+    bottom:px2rem(44);
+    z-index: 1;
+}
+.topsanjiao{
+    width:px2rem(695);
+    position: absolute;
+    background: url(../images/guoman/topsanjiao.png) no-repeat;
+    background-size: 100%;
+    height:px2rem(164);
+    top: px2rem(90);
+    left:0;
+    z-index: 1;
+   // display:none;
+}
+.bottomimg{
+    width:px2rem(750);
+    position: absolute;
+    background: url(../images/guoman/bottom.png) no-repeat;
+    background-size: 100%;
+    height:px2rem(202);
+    bottom: 0;
+    z-index: 1;
+    left:0;
+   // display:none;
+}

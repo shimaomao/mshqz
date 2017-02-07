@@ -1,0 +1,1099 @@
+@import "common.scss";
+
+//#text-search::-webkit-input-placeholder { /* WebKit browsers */
+//color: #fff;
+//}
+//#text-search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+//color: #fff;
+//}
+//#text-search::-moz-placeholder { /* Mozilla Firefox 19+ */
+//color: #fff;
+//}
+//#text-search:-ms-input-placeholder { /* Internet Explorer 10+ */
+//color: #fff;
+//}
+//.highlight{color:#fff;background:#ee8529;}
+
+#kfjz{
+  .touming{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    //background: red;
+    //opacity: 0.2;
+    z-index: 1;
+    display: none;
+  }
+  position: relative;
+  width: px2rem(750);
+  #fixbottom{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: px2rem(750);
+    background: url("../images/kfjz/fixed-bg.png") no-repeat;
+    height: px2rem(181);
+    z-index: 70;
+    background-size: 100%;
+    ul.fixbottom-ul{
+      width: px2rem(750);
+      margin: px2rem(32) auto 0;
+      li{
+        background: url("../images/kfjz/step-bg.png") no-repeat;
+        width: px2rem(148);
+        height:px2rem(148);
+        background-size: 100%;
+        float: left;
+        position: relative;
+        span{
+          width: px2rem(66);
+          height: px2rem(74);
+          left:50%;
+          top:50%;
+          margin-top: px2rem(-74/2);
+          margin-left: px2rem(-66/2);
+          color: #76c7ff;
+          text-align: center;
+          font-size: px2rem(30);
+          position: absolute;
+          font-weight: bold;
+        }
+        .step-i{
+          position: absolute;
+          width: px2rem(131);
+          height:px2rem(131);
+          left:50%;
+          top:50%;
+          //margin-left: px2rem(-131/2);
+          margin-top: px2rem(-131/2);
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+        }
+        &.li-first{
+          margin-left:0;
+        }
+        &.cur{
+          background: url("../images/kfjz/step-bg-h.png") no-repeat;
+          background-size: 100%;
+          span{
+            font-weight: bold;
+            color: #d9eeff;
+          }
+        }
+      }
+    }
+  }
+}
+#top-banner{
+  background: #071829 ;
+  position: relative;
+  width: px2rem(750);
+  .bottom-bg{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: px2rem(750);
+    height: px2rem(39);
+    .bottom-bg-pic{
+      z-index: 1;
+      position: absolute;
+      bottom: 0;
+      left:0;
+      display: block;
+      width: px2rem(750);
+      height: px2rem(39);
+    }
+  }
+  .bannerTop{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: px2rem(750);
+    height:px2rem(833);
+  }
+  .logo{
+    display: inline-block;
+    position: absolute;
+    width: px2rem(206);
+    height: px2rem(62);
+    top:px2rem(32);
+    left: px2rem(114);
+    z-index: 9;
+  }
+  .m-tit{
+    position: absolute;
+    z-index: 9;
+    img{
+      width: px2rem(451);
+      height: px2rem(173);
+      position: absolute;
+      left: px2rem(14);
+      top:px2rem(112);
+    }
+
+  }
+  .game-rulers01{
+    position: relative;
+    width: px2rem(700);
+    margin:0 auto 0;
+    padding-top:  px2rem(348);
+
+    .tit{
+      padding-left:px2rem(107);
+      padding-bottom:px2rem(26);
+      position: relative;
+      i{
+          //display: block;
+        position: absolute;
+        top:0;
+        left:0;
+        width:px2rem(80);
+        height: px2rem(92);
+        line-height: px2rem(92);
+        background: url("../images/kfjz/tit-bg.png") no-repeat;
+        text-align: center;
+        font-weight: bold;
+        font-size: px2rem(40);
+        background-size:100%;
+        color: #08192e;
+      }
+      b{
+        font-size: px2rem(34);
+        color: #fadf97;
+        height: px2rem(92);
+        line-height: px2rem(92);
+
+      }
+    }
+    .game-intro{
+      padding-bottom: px2rem(24);
+      p{
+        font-size: px2rem(24);
+        font-weight: bold;
+        line-height: px2rem(36);
+        color: #76bdff;
+        .yellow{
+          color: #fadf97;
+        }
+      }
+    }
+    .game-content{
+      padding-bottom: px2rem(36);
+      h2{
+        font-size: px2rem(28);
+        color: #76bdff;
+        font-weight: 600;
+      }
+      p{
+        font-size: px2rem(24);
+        color: #76bdff;
+        line-height: px2rem(32);
+        padding-bottom:px2rem(4);
+        position: relative;
+        padding-left: px2rem(30);
+        span{
+          display: inline-block;
+          font-size: px2rem(24);
+          position: absolute;
+          left:0;
+          top:0;
+        }
+      }
+    }
+    .kf-btn{
+      display: block;
+      margin:0 auto;
+      color: #fadf97;
+      font-size: px2rem(28);
+      text-align: center;
+      width: px2rem(256);
+      height: px2rem(58);
+      line-height: px2rem(58);
+      background: url("../images/kfjz/btn1.png") no-repeat;
+      background-size: 100%;
+      padding-bottom: px2rem(46);
+      &:hover{
+        background: url("../images/kfjz/btn1-hover.png") no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+}
+#jiang02{
+
+  background: url("../images/kfjz/bg02.jpg") no-repeat;
+  background-size: 100%;
+  width: px2rem(750);
+  height: px2rem(720);
+  position: relative;
+  .jiang-inner{
+    width: px2rem(700);
+    margin: 0 auto;
+    padding-top: px2rem(26);
+    .tit{
+      padding-left:px2rem(107);
+      padding-bottom:px2rem(26);
+      position: relative;
+      i{
+        //display: block;
+        position: absolute;
+        top:0;
+        left:0;
+        width:px2rem(80);
+        height: px2rem(92);
+        line-height: px2rem(92);
+        background: url("../images/kfjz/tit-bg.png") no-repeat;
+        text-align: center;
+        font-weight: bold;
+        font-size: px2rem(40);
+        background-size:100%;
+        color: #08192e;
+      }
+      b{
+        font-size: px2rem(34);
+        color: #fadf97;
+        height: px2rem(92);
+        line-height: px2rem(92);
+      }
+    }
+   .giftbox{
+     padding-top: px2rem(14);
+     padding-bottom: px2rem(31);
+     ul{
+       width: 100%;
+       li{
+         float: left;
+         .pro{
+           background: url("../images/kfjz/jl-pic-1.png") no-repeat;
+           background-size: 100%;
+           width: px2rem(200);
+           height: px2rem(222);
+           //margin: 0 auto;
+           position: relative;
+           &.pro1{
+             background: url("../images/kfjz/jl-pic-1.png") no-repeat;
+             background-size: 100%;
+           }
+           &.pro2{
+             background: url("../images/kfjz/jl-pic-2.png") no-repeat;
+             background-size: 100%;
+           }
+           &.pro3{
+             background: url("../images/kfjz/jl-pic-3.png") no-repeat;
+             background-size: 100%;
+           }
+           img{
+             display: block;
+             width: px2rem(180);
+             height: px2rem(149);
+             position: absolute;
+             top:50%;
+             left:50%;
+             margin-top: - px2rem(180/2);
+             margin-left: - px2rem(149/2);
+           }
+           &.mr46{
+             margin-right: px2rem(37);
+           }
+           .blue-bg{
+             position: absolute;
+             background: url(../images/kfjz/blue-bg.png) no-repeat;
+             width: px2rem(187);
+             height: px2rem(55);
+             line-height: px2rem(55);
+             background-size: 100%;
+             left:50%;
+             margin-left: px2rem(-187/2);
+             bottom:0;
+             z-index: 4;
+           }
+           .gift-name{
+             color: #fff;
+             width: px2rem(187);
+             height: px2rem(55);
+             font-size: px2rem(24);
+             left:50%;
+             margin-left: px2rem(-187/2);
+             font-weight: bold;
+             position: absolute;
+             text-align: center;
+             bottom:0;
+             z-index: 4;
+           }
+         }
+
+       }
+     }
+   }
+    .p2intro-b{
+      font-size: px2rem(24);
+      color: #76bdff;
+      line-height: px2rem(36);
+      .Agifts{
+        text-decoration: underline;
+        color: #fadf97;
+        font-size: px2rem(24);
+        position: relative;
+        z-index: 2;
+        .psa-msg{
+          display: none;
+          position: absolute;
+          z-index: 30;
+          top:px2rem(50);
+          width: px2rem(170);
+          padding: px2rem(10);
+          background: rgba(8,35,61,0.9);
+          font-size: px2rem(24);
+          text-align: center;
+          color: #fadf97;
+          border: px2rem(2) solid #025fb6;
+          left:px2rem(-10);
+          .sj{
+            position: absolute;
+            top:px2rem(-14);
+            background: url("../images/kfjz/sj.png") no-repeat;
+            background-size: 100%;
+            width:px2rem(25);
+            height: px2rem(16);
+          }
+          &.show{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+}
+#gusses03{
+  background: url("../images/kfjz/bg03.jpg") no-repeat;
+  width: px2rem(750);
+  height:px2rem(1088);
+  position: relative;
+  background-size: 100%;
+  overflow: hidden;
+  .gusses-inner {
+    width: px2rem(700);
+    margin: 0 auto;
+    padding-top: px2rem(26);
+    .tit {
+      padding-left: px2rem(107);
+      //padding-bottom: px2rem(26);
+      position: relative;
+      i {
+        //display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: px2rem(80);
+        height: px2rem(92);
+        line-height: px2rem(92);
+        background: url("../images/kfjz/tit-bg.png") no-repeat;
+        text-align: center;
+        font-weight: bold;
+        font-size: px2rem(40);
+        background-size: 100%;
+        color: #08192e;
+      }
+      b {
+        font-size: px2rem(34);
+        color: #fadf97;
+        height: px2rem(92);
+        line-height: px2rem(92);
+      }
+    }
+    .intro03{
+      font-size: px2rem(24);
+      color: #76bdff;
+      line-height: px2rem(36);
+      text-indent: 2em;
+      padding-bottom: px2rem(52);
+      padding-top: px2rem(17);
+    }
+    .bannerWrap{
+      position: relative;
+      .getout-tit{
+        color: #fadf97;
+        font-size: px2rem(26);
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: px2rem(46);
+        i{
+          background: url("../images/kfjz/lengxing.png") no-repeat;
+          width: px2rem(18);
+          height: px2rem(18);
+          display: inline-block;
+          margin-right: px2rem(18);
+          background-size: 100%;
+        }
+        span{
+          color: #fadf97;
+        }
+      }
+      .carsoular{
+
+        .swiper-slide{
+          //width: 33%;
+          .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+            width: 100%;
+          }
+        }
+        .banner-box{
+          width: px2rem(273);
+          //height: px2rem(539);
+          //width: 100%;
+          a{
+            display: inline-block;
+            //margin-right: px2rem(15);
+            //width: px2rem(273);
+            //height: px2rem(539);
+            position: relative;
+            img{
+              display: inline-block;
+              width: px2rem(273);
+              height: px2rem(539);
+              //width: 100%;
+            }
+            &.mr0{
+              margin-right: 0!important;
+            }
+            .battel-wrap{
+              position: absolute;
+              width: px2rem(273);
+              margin: 0 auto;
+              bottom:0;
+              left:0;
+              height: px2rem(90);
+              .battel-name{
+                width: 100%;
+                height: px2rem(26);
+                line-height: px2rem(26);
+                color: #fadf97;
+                text-align: center;
+                font-weight: bold;
+                font-size: px2rem(26);
+              }
+              .battel-words{
+                color: #fff;
+                width: 100%;
+                font-size: px2rem(24);
+                text-align: center;
+                height: px2rem(64);
+                line-height: px2rem(50);
+              }
+            }
+
+          }
+        }
+        .swiper-pagination2{
+          width: px2rem(700);
+          margin: px2rem(26) auto px2rem(28);
+          text-align: center;
+          position: relative;
+        }
+        .swiper-pagination-clickable .swiper-pagination-bullet-active{
+          width:px2rem(40);
+          height: px2rem(12);
+          border-radius:px2rem(50);
+          background: #fff;
+        }
+        .swiper-pagination-bullet{
+          background: #fadf97;
+          margin-right: px2rem(9);
+          height: px2rem(12);
+          width: px2rem(12);
+          opacity: 1;
+        }
+      }
+      .guessbtn03{
+        display:block;
+        background: url("../images/kfjz/btn03.png") no-repeat;
+        width: px2rem(269);
+        height: px2rem(54);
+        line-height: px2rem(54);
+        text-align: center;
+        margin:0 auto 0;
+        font-weight: bold;
+        font-size: px2rem(24);
+        color: #fadf97;
+        background-size: 100%;
+        z-index: 11;
+
+      }
+    }
+
+  }
+}
+
+#lookbefor04 {
+  background: url("../images/kfjz/bg04.jpg") no-repeat;
+  width: px2rem(750);
+  height: px2rem(1021);
+  position: relative;
+  background-size: 100%;
+   overflow: hidden;
+  .lookbefor-inner {
+    width: px2rem(700);
+    margin: 0 auto;
+    padding-top: px2rem(26);
+    .tit {
+      padding-left: px2rem(107);
+      padding-bottom: px2rem(52);
+      position: relative;
+      i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: px2rem(80);
+        height: px2rem(92);
+        line-height: px2rem(92);
+        background: url("../images/kfjz/tit-bg.png") no-repeat;
+        text-align: center;
+        font-weight: bold;
+        font-size: px2rem(40);
+        background-size: 100%;
+        color: #08192e;
+      }
+      b {
+        font-size: px2rem(34);
+        color: #fadf97;
+        height: px2rem(92);
+        line-height: px2rem(92);
+      }
+    }
+    .carousal4{
+      width: px2rem(710)!important;
+      margin: 0 auto;
+      .banner-box{
+        //width: 100%!important;
+        //width: px2rem(560)!important;
+        //overflow: hidden;
+        margin: 0 auto;
+        a{
+          border: 1px solid #fadf97;
+          width: px2rem(556);
+          height: px2rem(318);
+          padding: px2rem(3);
+          display:block;
+          margin: 0 auto;
+          position: relative;
+          margin-bottom: px2rem(42);
+          .picture{
+            position: absolute;
+            width: px2rem(556);
+            height: px2rem(318);
+            top:0;
+            left:0;
+            z-index: 4;
+          }
+          .hei{
+            position: absolute;
+            width: px2rem(556);
+            height: px2rem(318);
+            background: #000;
+            opacity: 0.7;
+          }
+          .team-name-bg{
+            z-index:1;
+            left:50%;
+            margin-left:px2rem(-556/2);
+            bottom: 0;
+            width: px2rem(556);
+            height: px2rem(48);
+            background: #000;
+            position: absolute;
+            opacity: 1;
+
+          }
+          .vedio-pic{
+            width:px2rem(149);
+            height:px2rem(149);
+            background: url("../images/kfjz/vedio-btn.png") no-repeat;
+            background-size: 100%;
+            position: absolute;
+            z-index: 3;
+            left:50%;top:50%;
+            margin-left: - px2rem(149/2);
+            margin-top: - px2rem(149/2);
+          }
+          .team-name{
+            color: #fadf97;
+            font-size: px2rem(24);
+            position: absolute;
+            z-index: 2;
+            left:0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            height: px2rem(48);
+            line-height: px2rem(48);
+
+
+          }
+          img{
+            display: inline-block;
+            width: px2rem(556);
+            height: px2rem(318);
+            margin: 0 auto;
+          }
+          &.mr0{
+            margin-right: 0;
+          }
+        }
+      }
+      .swiper-pagination4{
+        width: px2rem(700);
+        margin: px2rem(16) auto 0;
+        text-align: center;
+        position: relative;
+      }
+      .swiper-pagination-clickable .swiper-pagination-bullet-active{
+        width:px2rem(40);
+        height: px2rem(12);
+        border-radius:px2rem(50);
+        background: #fff;
+      }
+      .swiper-pagination-bullet{
+        background: #fadf97;
+        margin-right: px2rem(9);
+        height: px2rem(12);
+        width: px2rem(12);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+//弹窗样式结果开始
+.joinResAlert{
+  position: fixed;
+  height:100%;
+  width:px2rem(750);
+  top:0;
+  z-index: 80;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display:none;
+  .bg{
+    background:rgba(0,0,0,0.8);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  .joinResAlertInner{
+    position: absolute;
+    width:px2rem(734);
+    height:px2rem(566);
+    background: url(../images/kfjz/res-bg.png) no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left:50%;
+    margin-top: px2rem(-566/2);
+    margin-left: px2rem(-734/2);
+    .close{
+      width:px2rem(32);
+      height:px2rem(32);
+      background:url(../images/kfjz/close.png) no-repeat;
+      background-size: 100%;
+      position: absolute;
+      right:px2rem(10);
+      top: px2rem(-40);
+    }
+    h3{
+      text-align: center;
+      color:#fadf97;
+      font-size: px2rem(34);
+      line-height: px2rem(48);
+      padding-top: px2rem(48);
+      padding-bottom: px2rem(46);
+      font-weight: bold;
+    }
+    .res-words{
+      color: #fadf97;
+      font-size: px2rem(24);
+      text-align: center;
+      width: px2rem(676);
+      margin: px2rem(108) auto 0;
+    }
+  }
+}
+//弹窗样式结果结束
+//弹窗样式开始
+.join-team{
+  position: fixed;
+  height:100%;
+  width:px2rem(750);
+  top:0;
+  z-index: 80;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display:none;
+  .bg{
+    background:rgba(0,0,0,0.8);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  .teamBoxInner{
+    position: absolute;
+    width:px2rem(734);
+    height:px2rem(566);
+    background: url(../images/kfjz/kf-bg.png) no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left:50%;
+    margin-top: px2rem(-566/2);
+    margin-left: px2rem(-734/2);
+    .close{
+      width:px2rem(32);
+      height:px2rem(32);
+      background:url(../images/kfjz/close.png) no-repeat;
+      background-size: 100%;
+      position: absolute;
+      right:px2rem(10);
+      top: px2rem(-40);
+    }
+    h3{
+      text-align: center;
+      color:#fadf97;
+      font-size: px2rem(34);
+      line-height: px2rem(48);
+      padding-top: px2rem(48);
+      padding-bottom: px2rem(46);
+      font-weight: bold;
+    }
+    .join-btn{
+      text-align: center;
+      font-size: px2rem(26);
+      color:#fadf97;
+      width: px2rem(256);
+      height: px2rem(58);
+      line-height: px2rem(58);
+      background: url("../images/kfjz/btn1.png") no-repeat;
+      background-size: 100%;
+      margin:  px2rem(10) auto 0;
+    }
+    .maininfo{
+      width: px2rem(700);
+      margin: 0 auto;
+      //padding:0 px2rem(16) ;
+      .leftbox{
+        float: left;
+        width: 49%;
+        position: relative;
+        .innerLi{
+          width: 100%;
+          padding-bottom: px2rem(18);
+          span{
+            color: #fadf97;
+            width: 40.5%;
+            margin-right:0.2% ;
+            font-size: px2rem(22);
+            display: inline-block;
+            text-align: right;
+            float: left;
+          }
+          input{
+            display: inline-block;
+            width: 57.62%;
+            height: px2rem(42);
+            border: 1px solid #02678b;
+            background: rgba(1,105,203,0.3);
+            float: left;
+            color: #fff;
+            font-size: px2rem(24);
+          }
+
+        }
+
+      }
+      .rightbox{
+        float: left;
+        //width: px2rem(353);
+        width: 49%;
+        margin-right: 1%;
+        .innerLi{
+          width: 100%;
+          padding-bottom: px2rem(18);
+          span{
+            color: #fadf97;
+            width: 40.5%;
+            margin-right:0.2% ;
+            font-size: px2rem(22);
+            display: inline-block;
+            text-align: right;
+            float: left;
+          }
+          input{
+            display: inline-block;
+            width: 57.62%;
+            height: px2rem(42);
+            border: 1px solid #02678b;
+            background: rgba(1,105,203,0.3);
+            float: left;
+            color: #fff;
+            font-size: px2rem(24);
+          }
+          .payattation{
+            color: #fadf97;
+            font-size: px2rem(22);
+            text-align: right;
+            width: 100%;
+            display: block;
+          }
+        }
+
+      }
+
+      //background: red;
+      //height: px2rem(320);
+
+    }
+  }
+}
+//弹窗样式结束
+//guessAlert弹窗样式开始
+.guessAlert{
+  position: fixed;
+  height:100%;
+  width:px2rem(750);
+  top:0;
+  z-index: 80;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display:none;
+  .bg{
+      background:rgba(0,0,0,0.8);
+      width:100%;
+      height:100%;
+      position:absolute;
+      top:0;
+      left:0;
+  }
+  .guessAlertInner{
+    position: absolute;
+    width:px2rem(734);
+    height:px2rem(486);
+    background: url(../images/kfjz/guess-bg.png) no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    left:50%;
+    margin-top: px2rem(-486/2);
+    margin-left: px2rem(-734/2);
+    h3{
+      text-align: center;
+      color:#fadf97;
+      font-size: px2rem(34);
+      line-height: px2rem(48);
+      padding-top: px2rem(48);
+      padding-bottom: px2rem(34);
+      font-weight: bold;
+    }
+    .close{
+      width:px2rem(32);
+      height:px2rem(32);
+      background:url(../images/kfjz/close.png) no-repeat;
+      background-size: 100%;
+      position: absolute;
+      right:px2rem(10);
+      top: px2rem(-40);
+    }
+    .maininfo{
+      .content-text{
+        font-size: px2rem(24);
+        color: #fadf97;
+        text-indent: 2em;
+        line-height: px2rem(36);
+        width: px2rem(510);
+        margin: 0 auto px2rem(24);
+      }
+      .myID{
+        width: px2rem(400);
+        margin: 0 auto 0;
+        height: px2rem(44);
+        line-height: px2rem(44);
+        span{
+          color: #fadf97;
+          font-size:px2rem(24);
+          width: px2rem(126);
+          text-align: right;
+          padding-right: px2rem(6);
+          float: left;
+        }
+        input{
+          //display: inline-block;\
+          float: left;
+          width: px2rem(260);
+          height: px2rem(42);
+          border: 1px solid #03688c;
+          text-indent: px2rem(18);
+          font-size:px2rem(24);
+          //background: #0169cb;
+          //color: #115ba1;
+          color: #fff;
+          background: rgba(1,105,203,0.3);
+          &::-webkit-input-placeholder { /* WebKit browsers */
+            color: #a9a9a9;
+          }
+          &-placeholder{
+            color: #a9a9a9;
+          }
+        }
+      }
+      .whatTeam{
+        width: px2rem(400);
+        margin: px2rem(28) auto 0;
+        height: px2rem(44);
+        line-height: px2rem(44);
+        span{
+          color: #fadf97;
+          font-size:px2rem(24);
+          width: px2rem(126);
+          text-align: right;
+          padding-right: px2rem(6);
+          float: left;
+        }
+        input{
+          //display: inline-block;\
+          float: left;
+          width: px2rem(260);
+          height: px2rem(42);
+          border: 1px solid #03688c;
+          text-indent: px2rem(18);
+          //background: #0169cb;
+          //color: #115ba1;
+          color: #fff;
+          font-size:px2rem(24);
+          background: rgba(1,105,203,0.3);
+        }
+      }
+    }
+  .guessCommit-btn{
+    text-align: center;
+    font-size: px2rem(26);
+    color:#fadf97;
+    width: px2rem(256);
+    height: px2rem(58);
+    line-height: px2rem(58);
+    background: url("../images/kfjz/btn1.png") no-repeat;
+    background-size: 100%;
+    margin:  px2rem(26) auto 0;
+    }
+  }
+}
+
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #03688c;
+  width:px2rem(260);
+  height: px2rem(42);
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  //outline: none;
+  /*在选择框的最右侧中间显示小箭头图片*/
+
+  background:rgba(1,105,203,0.4) url("../images/kfjz/arrow.png") no-repeat scroll px2rem(226) center ;
+  background-size:px2rem(22) px2rem(11);
+  //opacity: 0.5;
+  color: #a9a9a9;
+  font-size: px2rem(24);
+  text-indent: px2rem(18);
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right:px2rem(34);
+  option{
+    text-indent: px2rem(18);
+    width:px2rem(260);
+    height: px2rem(30);
+    background: #043e75;
+  }
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+//guessAlert弹窗样式结束
+.footer-download{
+  margin-top: 0!important;
+}
+
+/////////////////////video
+.videoout{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: #000;
+  opacity: 0.60;
+  filter: alpha(opacity=60);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  bottom:0;
+  //display:none;
+}
+.videobox{
+  display:none;
+  position:fixed;
+  top:0;
+  width:16.0rem;
+  height:100%;
+  z-index: 300;
+}
+.video1{
+  //opacity:0;
+  width:0.021333rem;
+  height:0.021333rem;
+  position: absolute;
+}
+.video2{
+  position: absolute;
+  top: 50%;
+  margin-top: -4.501333rem;//210
+  width:16.0rem;//750
+  height:auto;
+  z-index: 20;
+  text-align: center;
+  //display:none;
+}
+.va-myVideo{
+  width:96%;
+  height:auto;
+  position: absolute;
+  top: 50%;
+  margin-top: -4.501333rem;//210
+  height:auto;
+  left:50%;
+  margin-left:-48%;
+  z-index: 20;
+  text-align: center;
+}
+.videobox .va-myVideo2{
+  width:70%;
+  height:auto;
+  position: absolute;
+  top: 20%;
+  height:auto;
+  left:50%;
+  margin-left:-35%;
+  z-index: 20;
+  text-align: center;
+}
+
+.footer-download{
+  margin-top:0;
+}

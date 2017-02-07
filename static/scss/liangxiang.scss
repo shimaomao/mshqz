@@ -1,0 +1,619 @@
+@import "common.scss";
+
+
+.banner1{
+    width: 16rem;//750px
+    height: 15.146667rem;//710px
+    background: url(../images/liangxiang/banner.jpg) no-repeat;
+    background-size: 100% auto;
+
+}
+
+.libao2{
+    width: 16rem;
+    height: 5.034667rem;//236px
+    background: url(../images/liangxiang/libao.jpg) no-repeat;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    padding-top: 0.533333rem;//25px
+
+    .leftbox{
+        float: left;
+        width:50%;
+
+        .getgift{
+            width:5.44rem;//255px
+            height:auto;
+            float: right;
+            margin-right: 0.32rem;//15px
+        }
+        .download{
+            width:5.226667rem;//245px
+            height:auto;
+            float: left;
+            margin-left: 0.32rem;//15px
+            margin-top: 0.746667rem;//35px
+        }
+    }
+    .center{
+        float: none;
+        margin:0 auto;
+        text-align: center;
+        .getgift{
+            float: none;
+            margin-right: 0;
+        }
+    }
+}
+.mian{
+    width: 16rem;
+    //min-height: 10rem;
+    background: url(../images/liangxiang/bgpart2.jpg) no-repeat bottom center,url(../images/liangxiang/bgpart1.jpg) repeat-y;
+    background-size: 100% auto;
+    padding-bottom: 3.626667rem;//170px
+
+
+    .titbox{
+        position: relative;
+        .bgboxs{
+            height:3.093333rem;
+            background: url(../images/liangxiang/01.png) no-repeat center top;
+            background-size: 4.288rem 3.093333rem;//201*145
+        }
+        .two{
+            height:3.093333rem;
+            background: url(../images/liangxiang/02.png) no-repeat center top;
+            background-size: 4.288rem 3.093333rem;
+        }
+        .word{
+            position: absolute;
+            width:100%;
+            top:0.64rem;//30px
+            text-align: center;
+
+            h3{
+                font-size: 0.768rem;//36px
+                color: #fff;
+                line-height: 1.173333rem;//55px
+                width:5.653333rem;//265px
+                margin:0 auto;
+                border-bottom: 1px solid #df0000;
+            }
+            p{
+                line-height: 1.066667rem;//50px
+                color:#fff;
+                font-size: 0.512rem;//24px
+                em{
+                    color:#f81212;
+                }
+            }
+        }
+    }
+    .top{
+        top:-1rem;
+    }
+    .picbox{
+        width:14.933333rem;//700px
+        margin:0 auto;
+        padding-bottom:1.984rem;//93px
+
+
+        .box{
+            height:7.573333rem;//355px
+            padding-bottom: 0.277333rem;//13px
+            .pic{
+                float: left;
+                position:relative;
+                img{
+                    width:100%;
+                    height:auto;
+                }
+                .info{
+                    position: absolute;
+                    left: 0.426667rem;//20px
+                    top: 0.426667rem;
+                    right:0.426667rem;
+                    bottom:0.426667rem;
+                    background: rgba(134,4,4,0.6);
+                    padding:0.469333rem;
+                    opacity: 0;
+                    -webkit-transition: all .25s ;
+                            transition: all .25s ;
+
+                    .name{
+                        color:#fff;
+                        font-size: 0.64rem;//30px
+                        line-height: 1.92rem;//90px
+                        border-bottom: 1px solid #fff;
+                        margin-top: 5%;
+                        em{
+                            font-size: 1.024rem;//48px
+                        }
+
+                    }
+                    .job{
+                        color:#fff;
+                        font-size: 0.512rem;//24px
+                        line-height: 1.322667rem;//62px
+                    }
+
+                }
+
+            }
+            // .pic:active,.pic:focus{
+            //     .info{
+            //         opacity:1;
+            //     }
+            // }
+        }
+
+        .box1{
+            .pic1{
+                width:11.178667rem;//524px
+            }
+            .pic2{
+                width:3.477333rem;//163px
+                float: right;
+
+                .info{
+                    left:0.213333rem;//10px
+                    right:0.213333rem;
+                    padding:0.469333rem 0.213333rem;//22px  25px
+                }
+            }
+        }
+        .box2{
+            height:5.333333rem;//250px
+            .pic1{
+                width:4.8rem;//225px
+                margin-right: 0.257333rem;
+            }
+            .pic2{
+                float: right;
+                width:4.8rem;//225px
+            }
+        }
+        .box3{
+            height:5.333333rem;//250px
+            .pic1{
+                width:9.856rem;//462px
+                
+            }
+            .pic2{
+                float: right;
+                width:4.8rem;//225px
+            }
+        }
+        .box4{
+            height:5.333333rem;//250px
+            .pic1{
+                width:4.8rem;//225px
+                
+            }
+            .pic2{
+                float: right;
+                width:9.856rem;//462px
+            }
+        }
+    }
+    .talk{
+        width:14.933333rem;//700px
+        background: rgba(0,0,0,0.8);
+        min-height:15.786667rem;//740px
+        margin:0.64rem auto 0;//30px
+        position:relative;
+        padding-bottom: 2.453333rem;//115px
+
+
+        ul>li{
+            border-bottom: 1px solid #5a5a5a;
+            box-sizing: border-box;
+            padding:0.533333rem;//25px
+            .leftpic{
+                width:2.133333rem;//100px
+                float: left;
+                img{
+                    width:1.813333rem;//85px
+                    height:auto;
+                }
+            }
+            .rightbox{
+                width:11.733333rem;//550px
+                float: left;
+                p{
+                    font-size: 0.512rem;//25px
+                }
+                .name{
+                    font-size: 0.597333rem;//28px
+                    color:#fff;
+
+                }
+                .aite{
+                    color:#ff8c25;
+                    padding-right: 1.066667rem;//50px
+                }
+                .word{
+                    color:#9f9f9f;
+                    line-height: 0.853333rem;//40px
+                }
+                .more{
+                    color:#ff8c25;
+                    text-decoration: underline;
+                }
+                .reword{
+                    color:#9f9f9f;
+                    display:none;
+                }
+            }
+        }
+        ul>li:last-child{
+            border-bottom:0;
+        }
+        .pagination{
+            height:2.453333rem;//115px
+            color:#fff;
+            font-size: 0.512rem;//24px
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 0.533333rem;//25px
+            position: absolute;
+            width:100%;
+            bottom:0;
+
+            a,span{
+                color:#fff;
+                display:inline-block;
+                margin-left: px2rem(30);//30px
+                margin-right: px2rem(30);
+                line-height: 1;
+                //padding:0.32rem 0.170667rem;
+                height:1.28rem;//60px
+                width:0.96rem;//45px
+                line-height: 1.28rem;//60px
+                border:1px solid rgba(255,255,255,0);
+            }
+
+
+            .current{
+                border:1px solid rgba(255,255,255,1);
+            }
+            .prev{
+                float: left;
+                text-decoration: underline;
+                margin-left: 0.533333rem;//25px
+                height:auto;
+                width:auto;
+                border:1px solid rgba(255,255,255,0);
+            }
+            .next{
+                float: right;
+                text-decoration: underline;
+                margin-right: 0.533333rem;//25px
+                height:auto;
+                width:auto;
+                border:1px solid rgba(255,255,255,0);
+            }
+        }
+    }
+}
+
+.libaoalert{
+    position:fixed;
+    height:100%;
+    width:16rem;
+    top: 0;
+    display:none;
+    z-index: 3000;
+    .bg{
+        position: absolute;
+        top: 0;
+        width:16rem;
+        height:100%;
+        background: rgba(0,0,0,0.8);
+    }
+    .infobox{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width:14.933333rem;//700px
+        height:px2rem(743);//743px
+        margin-top: -7.893333rem;//370px
+        margin-left: -7.466667rem;//350px
+        background: url(../images/liangxiang/libaobg.jpg) no-repeat;
+        background-size: 100%;
+
+        .close{
+
+            width:1.066667rem;//50px
+            height:1.066667rem;//50px
+            position: absolute;
+            top: -1.28rem;//60px
+            right:0;
+            span{
+                position: absolute;
+                width:1.173333rem;//55px
+                height:2px;
+                background: #ff0000;
+                top: 50%;
+            }
+            .heng{
+                -webkit-transform: rotate(45deg);
+                   -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                     -o-transform: rotate(45deg);
+                        transform: rotate(45deg);
+            }
+            .heng2{
+                -webkit-transform: rotate(-45deg);
+                   -moz-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                     -o-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+            }
+        }
+        .inner{
+            h3{
+                font-size: 0.768rem;//36px
+                color:#fff;
+                text-align: center;
+                line-height: 1;
+                margin-top: 0.746667rem;//35px
+                margin-bottom: 0.96rem;//45px
+            }
+        }
+        .list{
+            margin-bottom: 0.746667rem;//35px
+
+
+            .leftbox{
+                width:3.626667rem;//170px
+                float: left;
+                span{
+                    width:2.88rem;//135px
+                    line-height: 0.853333rem;//40px
+                    background: #a42020;
+                    display:block;
+                    text-align: center;
+                    color:#fff;
+                    margin-left: 0.533333rem;//25px
+                }
+            }
+            .rightbox{
+                float: right;
+                width:10.773333rem;//505px
+                margin-right: 0.533333rem;//25px
+                color:#b2b2b2;
+                line-height: 0.746667rem;//35px
+                .luntan{
+                    color:#fff;
+                }
+            }
+        }
+        .tubiao{
+            width:13.866667rem;//650px
+            margin:0 auto 0.426667rem;//20px
+            ul li{
+                width:20%;
+                float: left;
+
+                .pic{
+                    width:1.813333rem;//85px
+                    height:1.813333rem;//85px
+                    background: #2d2b25;
+                    border-radius: 0.106667rem;//5px
+                    margin:0 auto;
+                    img{
+                        width:1.813333rem;//85px
+                        height:auto;
+                    }
+                }
+                p{
+                    font-size: 0.512rem;//24px
+                    color:#b2b2b2;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.alertman{
+    position:fixed;
+    height:100%;
+    width:16rem;//750px
+    top: 0;
+    display:none;
+    z-index: 3000;
+    .bg{
+        position: absolute;
+        top: 0;
+        width:16rem;
+        height:100%;
+        background: rgba(0,0,0,0.8);
+    }
+    .infobox{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width:14.933333rem;//700px
+        padding:0.426667rem;//20px
+        box-sizing: border-box;
+        margin-top: -6.08rem;//285px
+        margin-left: -7.466667rem;//350px
+        background: url(../images/liangxiang/rebg.jpg) repeat;
+        background-size: 0.064rem 0.064rem;//3px
+
+        .close{
+
+            width:1.066667rem;//50px
+            height:1.066667rem;//50px
+            position: absolute;
+            top: -1.28rem;//60px
+            right:0;
+            span{
+                position: absolute;
+                width:1.173333rem;//55px
+                height:2px;
+                background: #ff0000;
+                top: 50%;
+            }
+            .heng{
+                -webkit-transform: rotate(45deg);
+                   -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                     -o-transform: rotate(45deg);
+                        transform: rotate(45deg);
+            }
+            .heng2{
+                -webkit-transform: rotate(-45deg);
+                   -moz-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                     -o-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+            }
+        }
+
+        .leftpicbox{
+            float: left;
+            width:6.506667rem;//305px
+            height:11.413333rem;//535px
+
+            div{
+                width:100%;
+                height:100%;
+            }
+        }
+        .man1{
+            background: url(../images/liangxiang/man1.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man2{
+            background: url(../images/liangxiang/man2.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man3{
+            background: url(../images/liangxiang/man3.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man4{
+            background: url(../images/liangxiang/man4.jpg) no-repeat;
+            background-size: 100%;
+        }
+
+        .man5{
+            background: url(../images/liangxiang/man5.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man6{
+            background: url(../images/liangxiang/man6.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man7{
+            background: url(../images/liangxiang/man7.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man8{
+            background: url(../images/liangxiang/man8.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man9{
+            background: url(../images/liangxiang/man9.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man10{
+            background: url(../images/liangxiang/man10.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man11{
+            background: url(../images/liangxiang/man11.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .man12{
+            background: url(../images/liangxiang/man12.jpg) no-repeat;
+            background-size: 100%;
+        }
+        .rightbox{
+            float: right;
+            width:7.466667rem;//350px
+            margin-top: 1.066667rem;//50px
+
+            .ziliao{
+                float: right;
+                padding:0.533333rem;//25px
+                position:relative;
+                width:7.04rem;//330px
+                box-sizing: border-box;
+                border-left: 0.106667rem solid #a42020;//5px
+                border-right: 0.106667rem solid #a42020;//5px
+                border-bottom: 0.106667rem solid #a42020;//5px
+                .topl,.topr{
+                    height:0.106667rem;//5px
+                    width:1.770667rem;//83px
+                    position: absolute;
+                    background: #a42020;
+                    
+                    top: -0.106667rem;//5px
+                }
+                .topl{
+                    left:-0.106667rem;//5px
+                }
+                .topr{
+                    right:-0.106667rem;//5px
+                }
+                .top{
+                    position:relative;
+                    height:1.386667rem;//65px
+                     //right:4.16rem;
+                    .name{
+                        color:#fff;
+                        font-size: 0.768rem;//36px
+                        position: absolute;
+                        right:3.413333rem;//160px
+                        span{
+                            width:1.28rem;//60px
+                            height:1px;
+                            background: #a42020;
+                            position: absolute;
+                            -webkit-transform: rotate(-45deg);
+                               -moz-transform: rotate(-45deg);
+                                -ms-transform: rotate(-45deg);
+                                 -o-transform: rotate(-45deg);
+                                    transform: rotate(-45deg);
+                                    top: 0.789333rem;//37px
+                                    right:-0.94rem;//44px
+                        }
+                    }
+                    .job{
+                        color:#fff;
+                        font-size: 0.512rem;//24px
+                        position: absolute;
+                        left:2.973333rem;//139px
+                        top: 0.533333rem;//25px
+                    }
+                }
+                .word{
+                    font-size: 0.512rem;//24px
+                    color:#b2b2b2;
+                    text-indent: 1em;
+                    line-height: 0.853333rem;//40px
+                }
+            }
+            .talkabout{
+                width:6.186667rem;//290px
+                background: #a42020;
+                color:#fff;
+                line-height: 1;
+                padding:0.32rem 0;//15px
+                text-align: center;
+                //display:block;
+                margin:0 auto;
+                float: right;
+                margin: 0.853333rem 0.426667rem 0 0;//40px  20px
+                border-radius: 0.106667rem;//5px
+            }
+        }
+    }
+    
+}
+.footer-download{
+    margin-top: 0;
+}

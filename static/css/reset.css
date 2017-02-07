@@ -1,0 +1,25 @@
+
+body {font-size:0.512rem;background:#f8f8fa;font-family: "Segoe UI", "Microsoft YaHei", sans-serif;}
+html{
+    -webkit-text-size-adjust: 100%;
+}
+table{border-collapse:collapse;border-spacing:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;}
+ul,ol,li{list-style:none;}
+em,i{font-style:normal;}
+strong,b{font-weight:normal;}
+img{border:0;}
+input,img{vertical-align:middle;}
+a{text-decoration:none;}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);-ms-touch-action: none;}
+input,select,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);border:0;border-radius:0;-webkit-appearance:none;}
+textarea:focus{outline:0;}
+a{color:#343434;}
+b {font-weight: bold;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+
+.clearfix:before,.clearfix:after{ content:""; display:table;}
+
+.clearfix:after{ clear:both;}
+
+.clearfix{ zoom:1;}

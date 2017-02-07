@@ -1,0 +1,247 @@
+@import "common.scss";
+.footer-download{margin-top:0!important;}
+.color_i{display: inline-block;background: red;}
+input{
+  outline:none;
+}
+.cl{clear: both;}
+.mr0{margin-right:0 !important;}
+
+@mixin box-sizing ($sizing) {
+  -webkit-box-sizing:$sizing;
+  -moz-box-sizing:$sizing;
+  box-sizing:$sizing;
+}
+@mixin  background-size($wsize,$hsize){
+  -webkit-background-size:$wsize,$hsize;
+  -moz-background-size:$wsize,$hsize;
+  background-size:$wsize,$hsize;
+}
+html,body{width:100%;height: 100%;}
+.blueBg{
+  width:px2rem(750);
+  height:100%;
+  background: #cde5f7  url("../images/xjk/BigBg.jpg") no-repeat center px2rem(180);
+  @include  background-size(100%,100%);
+
+}
+//@include box-sizing(border-box);
+//@include  background-size(100%,100%);
+.top_back{
+  width:100%;
+  height:px2rem(65);
+  line-height: px2rem(65);
+  font-size: px2rem(32);
+  color:#fff;
+  background: url("../images/xjk/top_back.jpg") no-repeat;
+  @include  background-size(100%,100%);
+  position: relative;
+  text-align: center;
+  a{
+    position: absolute;
+    color: #a8bbd9;
+    font-size:px2rem(24);
+    height: px2rem(65);
+    line-height: px2rem(65);
+    left:px2rem(25);
+    i{
+      display:inline-block;
+      margin-right:px2rem(11);
+    }
+  }
+}
+
+
+.xjk_banner{
+  width:100%;
+  //background: url("../images/xjk/banner.jpg") no-repeat center center;
+  height: px2rem(572);
+  @include  background-size(100%,100%);
+  position: relative;
+  .search_box{
+    width:px2rem(428);
+    height:px2rem(53);
+    border: 1px solid #4bb1ff;
+    position: absolute;
+    left:px2rem(160);
+    bottom:px2rem(41);
+    .searchText{
+      font-size: px2rem(24);
+      font-family:Microsoft YaHei;
+      width:px2rem(284);
+      height:px2rem(53);
+      background:#dfeef5;
+      opacity:0.7;
+      float: left;
+    }
+    .searchBtn{
+      width:px2rem(144);
+      height:px2rem(53);
+      background: #4bb1ff;
+      float: left;
+      color: #fff;
+      font-size: px2rem(24);
+      font-family:Microsoft YaHei;
+    }
+  }
+}
+
+.xWrap{
+  width:px2rem(700);
+  margin:0 auto px2rem(68);
+  //padding-bottom: px2rem(138);
+  overflow: hidden;
+  background:#a3c8e5 url("../images/xjk/lunbo-bg.jpg") no-repeat top center;
+  @include  background-size(100%,100%);
+  .xjkTab{
+    width:px2rem(700);
+    margin:0 auto;
+      .x_hd{
+        overflow: hidden;
+        //width:px2rem(700);
+        margin:0 auto;
+        padding-bottom: px2rem(54);
+        text-align: center;
+        span{
+          //float: left;
+          display:inline-block;
+          width: px2rem(115);
+          height: px2rem(65);
+          line-height: px2rem(65);
+          font-size:px2rem(24);
+          @include  background-size(100%,100%);
+          -webkit-background-size: 100% !important;
+          -moz-background-size: 100% !important;
+          background-size: 100% !important;
+          color: #fff;
+          text-align: center;
+          margin-right:px2rem(1);
+          font-family:Microsoft YaHei;
+          background:#225081;
+          &.cur{
+            background:#4bb1ff;
+          }
+
+        }
+      }
+    .x_bd{
+      .div_ul{
+        width:100%;
+        position: relative;
+        //height:px2rem(900);
+        display: none;
+          &.cur{
+            display: block;
+          }
+      }
+
+      .tanke  a img{
+        background: #aec1c7;
+      }
+      .kongzi  a img{
+        background: #bda6bb;
+      }
+      .fashi  a img{
+        background: #9dd5e1;
+      }
+      .yishi  a img{
+        background: #dcb9b9;
+      }
+      .sheshi  a img{
+        background: #aabba4;
+      }
+      .zhanshi  a img{
+        background: #e6daa5;
+      }
+    }
+  }
+}
+
+
+
+
+
+//swiper loop 样式
+.banner{
+  width:100%;
+  position: relative;
+  //height:px2rem(960);
+
+  .banner-box{
+
+
+      .li_a{
+        float: left;
+        width:px2rem(210);
+        text-align: center;
+        //height:px2rem(210);
+        //border-radius: 50%;
+        margin-bottom:px2rem(57);
+        margin-left: px2rem(19);
+        //background:red;
+        position: relative;
+        a{
+          border: 1px solid #fff;
+          width:px2rem(210);
+          height:px2rem(210);
+          line-height:px2rem(208);
+          margin-bottom:px2rem(20);
+          border-radius: 50%;
+          //height:px2rem(280);
+          display: inline-block;
+          text-align: center;
+          img{
+            display: inline-block;
+            //background:pink;
+            width:px2rem(185);
+            height:px2rem(185);
+            //padding: 10px;
+            border-radius: 50%;
+          }
+        }
+        span{
+          //position:absolute ;
+          height: px2rem(64);
+          text-align: center;
+          bottom:0;
+          left:0;
+          width:100%;
+          color: #656565;
+          font-size:px2rem(24);
+        }
+      }
+
+
+
+  }
+
+ .swiper-container>.swiper-pagination{
+    bottom:0;
+    width:100%;
+    z-index: 100;
+    .swiper-pagination-bullet{
+      width:px2rem(20);
+      height:px2rem(20);
+      background: #fff;
+      margin-right: px2rem(9);
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active{
+      background: #597fa7;
+    }
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  //height:px2rem(900);
+  //overflow: hidden;
+
+}
+
